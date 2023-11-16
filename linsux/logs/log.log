@@ -1,0 +1,2138 @@
+2023-10-30 19:45:20 Starting ManagerApplication using Java 17.0.9 with PID 34758 (/Users/linsz/Documents/linsux/backEnd/linsux/linsux/linsux-manager/target/classes started by linsz in /Users/linsz/Documents/linsux/backEnd/linsux/linsux)
+2023-10-30 19:45:20 The following 1 profile is active: "dev"
+2023-10-30 19:45:20 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-30 19:45:20 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-10-30 19:45:20 Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2023-10-30 19:45:20 Tomcat initialized with port(s): 8889 (http)
+2023-10-30 19:45:20 Initializing ProtocolHandler ["http-nio-8889"]
+2023-10-30 19:45:20 Starting service [Tomcat]
+2023-10-30 19:45:20 Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-10-30 19:45:20 Initializing Spring embedded WebApplicationContext
+2023-10-30 19:45:20 Root WebApplicationContext: initialization completed in 777 ms
+2023-10-30 19:45:21 Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'indexController': Unsatisfied dependency expressed through field 'sysUserService': Error creating bean with name 'sysUserServiceImpl': Unsatisfied dependency expressed through field 'redisOperator': No qualifying bean of type 'com.lin.linsux.common.util.redis.RedisOperator' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-10-30 19:45:21 Stopping service [Tomcat]
+2023-10-30 19:45:21 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-10-30 19:45:21 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field redisOperator in com.lin.linsux.manager.service.impl.SysUserServiceImpl required a bean of type 'com.lin.linsux.common.util.redis.RedisOperator' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.lin.linsux.common.util.redis.RedisOperator' in your configuration.
+
+2023-10-30 20:03:25 Starting ManagerApplication using Java 17.0.9 with PID 34912 (/Users/linsz/Documents/linsux/backEnd/linsux/linsux/linsux-manager/target/classes started by linsz in /Users/linsz/Documents/linsux/backEnd/linsux/linsux)
+2023-10-30 20:03:25 The following 1 profile is active: "dev"
+2023-10-30 20:03:26 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-30 20:03:26 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-10-30 20:03:26 Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2023-10-30 20:03:26 Tomcat initialized with port(s): 8889 (http)
+2023-10-30 20:03:26 Initializing ProtocolHandler ["http-nio-8889"]
+2023-10-30 20:03:26 Starting service [Tomcat]
+2023-10-30 20:03:26 Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-10-30 20:03:26 Initializing Spring embedded WebApplicationContext
+2023-10-30 20:03:26 Root WebApplicationContext: initialization completed in 671 ms
+2023-10-30 20:03:26 Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'indexController': Unsatisfied dependency expressed through field 'sysUserService': Error creating bean with name 'sysUserServiceImpl': Unsatisfied dependency expressed through field 'redisOperator': No qualifying bean of type 'com.lin.linsux.common.util.redis.RedisOperator' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-10-30 20:03:26 Stopping service [Tomcat]
+2023-10-30 20:03:26 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-10-30 20:03:26 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field redisOperator in com.lin.linsux.manager.service.impl.SysUserServiceImpl required a bean of type 'com.lin.linsux.common.util.redis.RedisOperator' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.lin.linsux.common.util.redis.RedisOperator' in your configuration.
+
+2023-10-30 20:15:33 Starting ManagerApplication using Java 17.0.9 with PID 34973 (/Users/linsz/Documents/linsux/backEnd/linsux/linsux/linsux-manager/target/classes started by linsz in /Users/linsz/Documents/linsux/backEnd/linsux/linsux)
+2023-10-30 20:15:33 The following 1 profile is active: "dev"
+2023-10-30 20:15:33 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-30 20:15:33 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-10-30 20:15:33 Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2023-10-30 20:15:34 Tomcat initialized with port(s): 8889 (http)
+2023-10-30 20:15:34 Initializing ProtocolHandler ["http-nio-8889"]
+2023-10-30 20:15:34 Starting service [Tomcat]
+2023-10-30 20:15:34 Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-10-30 20:15:34 Initializing Spring embedded WebApplicationContext
+2023-10-30 20:15:34 Root WebApplicationContext: initialization completed in 709 ms
+2023-10-30 20:15:34 Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'indexController': Unsatisfied dependency expressed through field 'sysUserService': Error creating bean with name 'sysUserServiceImpl': Unsatisfied dependency expressed through field 'redisOperator': No qualifying bean of type 'com.lin.linsux.common.util.redis.RedisOperator' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-10-30 20:15:34 Stopping service [Tomcat]
+2023-10-30 20:15:34 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-10-30 20:15:34 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field redisOperator in com.lin.linsux.manager.service.impl.SysUserServiceImpl required a bean of type 'com.lin.linsux.common.util.redis.RedisOperator' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.lin.linsux.common.util.redis.RedisOperator' in your configuration.
+
+2023-10-30 20:16:41 Starting ManagerApplication using Java 17.0.9 with PID 34983 (/Users/linsz/Documents/linsux/backEnd/linsux/linsux/linsux-manager/target/classes started by linsz in /Users/linsz/Documents/linsux/backEnd/linsux/linsux)
+2023-10-30 20:16:41 The following 1 profile is active: "dev"
+2023-10-30 20:16:42 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-30 20:16:42 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-10-30 20:16:42 Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2023-10-30 20:16:42 Tomcat initialized with port(s): 8889 (http)
+2023-10-30 20:16:42 Initializing ProtocolHandler ["http-nio-8889"]
+2023-10-30 20:16:42 Starting service [Tomcat]
+2023-10-30 20:16:42 Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-10-30 20:16:42 Initializing Spring embedded WebApplicationContext
+2023-10-30 20:16:42 Root WebApplicationContext: initialization completed in 681 ms
+2023-10-30 20:16:42 Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'indexController': Unsatisfied dependency expressed through field 'sysUserService': Error creating bean with name 'sysUserServiceImpl': Unsatisfied dependency expressed through field 'redisOperator': No qualifying bean of type 'com.lin.linsux.common.util.redis.RedisOperator' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-10-30 20:16:42 Stopping service [Tomcat]
+2023-10-30 20:16:42 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-10-30 20:16:42 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field redisOperator in com.lin.linsux.manager.service.impl.SysUserServiceImpl required a bean of type 'com.lin.linsux.common.util.redis.RedisOperator' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.lin.linsux.common.util.redis.RedisOperator' in your configuration.
+
+2023-10-30 20:17:29 Starting ManagerApplication using Java 17.0.9 with PID 34985 (/Users/linsz/Documents/linsux/backEnd/linsux/linsux/linsux-manager/target/classes started by linsz in /Users/linsz/Documents/linsux/backEnd/linsux/linsux)
+2023-10-30 20:17:29 The following 1 profile is active: "dev"
+2023-10-30 20:17:29 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-30 20:17:29 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-10-30 20:17:29 Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2023-10-30 20:17:30 Tomcat initialized with port(s): 8889 (http)
+2023-10-30 20:17:30 Initializing ProtocolHandler ["http-nio-8889"]
+2023-10-30 20:17:30 Starting service [Tomcat]
+2023-10-30 20:17:30 Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-10-30 20:17:30 Initializing Spring embedded WebApplicationContext
+2023-10-30 20:17:30 Root WebApplicationContext: initialization completed in 639 ms
+2023-10-30 20:17:30 Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'indexController': Unsatisfied dependency expressed through field 'sysUserService': Error creating bean with name 'sysUserServiceImpl': Unsatisfied dependency expressed through field 'redisOperator': No qualifying bean of type 'com.lin.linsux.common.util.redis.RedisOperator' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-10-30 20:17:30 Stopping service [Tomcat]
+2023-10-30 20:17:30 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-10-30 20:17:30 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field redisOperator in com.lin.linsux.manager.service.impl.SysUserServiceImpl required a bean of type 'com.lin.linsux.common.util.redis.RedisOperator' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.lin.linsux.common.util.redis.RedisOperator' in your configuration.
+
+2023-10-31 00:08:23 Starting ManagerApplication using Java 17.0.9 with PID 35277 (/Users/linsz/Documents/linsux/backEnd/linsux/linsux/linsux-manager/target/classes started by linsz in /Users/linsz/Documents/linsux/backEnd/linsux/linsux)
+2023-10-31 00:08:23 The following 1 profile is active: "dev"
+2023-10-31 00:08:23 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-31 00:08:23 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-10-31 00:08:23 Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2023-10-31 00:08:24 Tomcat initialized with port(s): 8889 (http)
+2023-10-31 00:08:24 Initializing ProtocolHandler ["http-nio-8889"]
+2023-10-31 00:08:24 Starting service [Tomcat]
+2023-10-31 00:08:24 Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-10-31 00:08:24 Initializing Spring embedded WebApplicationContext
+2023-10-31 00:08:24 Root WebApplicationContext: initialization completed in 842 ms
+2023-10-31 00:08:24 Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'indexController': Unsatisfied dependency expressed through field 'sysUserService': Error creating bean with name 'sysUserServiceImpl': Unsatisfied dependency expressed through field 'redisOperator': No qualifying bean of type 'com.lin.linsux.common.util.redis.RedisOperator' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-10-31 00:08:24 Stopping service [Tomcat]
+2023-10-31 00:08:24 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-10-31 00:08:24 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field redisOperator in com.lin.linsux.manager.service.impl.SysUserServiceImpl required a bean of type 'com.lin.linsux.common.util.redis.RedisOperator' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.lin.linsux.common.util.redis.RedisOperator' in your configuration.
+
+2023-10-31 00:11:01 Starting ManagerApplication using Java 17.0.9 with PID 35304 (/Users/linsz/Documents/linsux/backEnd/linsux/linsux/linsux-manager/target/classes started by linsz in /Users/linsz/Documents/linsux/backEnd/linsux/linsux)
+2023-10-31 00:11:01 The following 1 profile is active: "dev"
+2023-10-31 00:11:01 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-31 00:11:01 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-10-31 00:11:01 Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2023-10-31 00:11:02 Tomcat initialized with port(s): 8889 (http)
+2023-10-31 00:11:02 Initializing ProtocolHandler ["http-nio-8889"]
+2023-10-31 00:11:02 Starting service [Tomcat]
+2023-10-31 00:11:02 Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-10-31 00:11:02 Initializing Spring embedded WebApplicationContext
+2023-10-31 00:11:02 Root WebApplicationContext: initialization completed in 770 ms
+2023-10-31 00:11:03 Starting ProtocolHandler ["http-nio-8889"]
+2023-10-31 00:11:03 Tomcat started on port(s): 8889 (http) with context path ''
+2023-10-31 00:11:03 Started ManagerApplication in 1.954 seconds (process running for 2.251)
+2023-10-31 00:12:37 Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-31 00:12:37 Initializing Servlet 'dispatcherServlet'
+2023-10-31 00:12:37 Completed initialization in 3 ms
+2023-10-31 00:12:38 Init duration for springdoc-openapi is: 96 ms
+2023-10-31 00:13:19 Unable to make field private final java.lang.Class java.lang.invoke.SerializedLambda.capturingClass accessible: module java.base does not "opens java.lang.invoke" to unnamed module @1573f9fc
+2023-10-31 00:13:19 HikariPool-1 - Starting...
+2023-10-31 00:13:19 HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@22b079ad
+2023-10-31 00:13:19 HikariPool-1 - Start completed.
+2023-10-31 00:28:49 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=58s466ms).
+2023-10-31 00:39:38 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m49s18ms).
+2023-10-31 00:47:35 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m26s942ms).
+2023-10-31 01:08:48 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s986ms).
+2023-10-31 01:14:01 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s22ms).
+2023-10-31 01:20:14 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s54ms).
+2023-10-31 01:25:27 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s7ms).
+2023-10-31 01:29:43 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m45s995ms).
+2023-10-31 01:30:42 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=58s547ms).
+2023-10-31 01:36:25 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s997ms).
+2023-10-31 01:42:08 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s3ms).
+2023-10-31 01:47:21 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s987ms).
+2023-10-31 02:17:32 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m41s300ms).
+2023-10-31 02:34:21 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m49s135ms).
+2023-10-31 03:04:24 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m32s569ms).
+2023-10-31 03:21:30 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m36s318ms).
+2023-10-31 03:38:13 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m42s357ms).
+2023-10-31 03:54:48 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m4s811ms).
+2023-10-31 04:11:19 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m1s502ms).
+2023-10-31 04:30:13 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=18m23s883ms).
+2023-10-31 04:46:36 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m22s744ms).
+2023-10-31 05:03:34 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m27s830ms).
+2023-10-31 05:21:47 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=18m13s788ms).
+2023-10-31 05:40:28 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=18m10s719ms).
+2023-10-31 05:57:17 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m18s466ms).
+2023-10-31 06:12:56 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m39s701ms).
+2023-10-31 06:29:55 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m28s960ms).
+2023-10-31 06:46:22 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m56s709ms).
+2023-10-31 07:03:22 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m30s363ms).
+2023-10-31 07:19:40 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m17s850ms).
+2023-10-31 07:37:00 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m49s822ms).
+2023-10-31 07:53:50 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m49s692ms).
+2023-10-31 08:10:45 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m54s976ms).
+2023-10-31 08:26:40 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m54s973ms).
+2023-10-31 08:41:29 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m48s893ms).
+2023-10-31 08:49:26 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m26s945ms).
+2023-10-31 08:55:09 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s26ms).
+2023-10-31 09:00:22 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s36ms).
+2023-10-31 09:06:05 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s983ms).
+2023-10-31 09:11:48 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s970ms).
+2023-10-31 09:17:01 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s899ms).
+2023-10-31 09:22:44 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s54ms).
+2023-10-31 09:28:27 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s2ms).
+2023-10-31 09:33:40 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s48ms).
+2023-10-31 09:39:23 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s24ms).
+2023-10-31 09:45:06 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s58ms).
+2023-10-31 09:50:49 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s993ms).
+2023-10-31 09:56:02 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s997ms).
+2023-10-31 10:01:45 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s30ms).
+2023-10-31 10:07:28 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s19ms).
+2023-10-31 10:12:41 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s38ms).
+2023-10-31 10:18:24 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s980ms).
+2023-10-31 10:24:07 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s948ms).
+2023-10-31 10:27:26 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m18s767ms).
+2023-10-31 10:33:09 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s7ms).
+2023-10-31 10:37:06 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m27s479ms).
+2023-10-31 10:42:19 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s986ms).
+2023-10-31 10:45:51 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m1s481ms).
+2023-10-31 10:51:34 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s43ms).
+2023-10-31 10:56:47 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s996ms).
+2023-10-31 10:59:42 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m25s891ms).
+2023-10-31 11:05:26 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s23ms).
+2023-10-31 11:10:39 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s989ms).
+2023-10-31 11:16:22 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s121ms).
+2023-10-31 11:22:05 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s102ms).
+2023-10-31 11:27:18 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s945ms).
+2023-10-31 11:33:01 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s79ms).
+2023-10-31 11:38:44 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s988ms).
+2023-10-31 11:43:57 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s41ms).
+2023-10-31 11:49:40 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s982ms).
+2023-10-31 11:55:23 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s993ms).
+2023-10-31 12:01:06 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s976ms).
+2023-10-31 12:06:19 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s994ms).
+2023-10-31 12:12:02 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s994ms).
+2023-10-31 12:17:45 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s952ms).
+2023-10-31 12:22:58 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s964ms).
+2023-10-31 12:28:41 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s974ms).
+2023-10-31 12:34:24 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s941ms).
+2023-10-31 12:39:37 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s990ms).
+2023-10-31 12:45:50 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s991ms).
+2023-10-31 12:51:33 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s52ms).
+2023-10-31 12:57:46 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s965ms).
+2023-10-31 13:02:59 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s44ms).
+2023-10-31 13:08:42 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s968ms).
+2023-10-31 13:16:25 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s990ms).
+2023-10-31 13:21:38 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s995ms).
+2023-10-31 13:27:51 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s55ms).
+2023-10-31 13:33:34 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s984ms).
+2023-10-31 13:37:42 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m7s753ms).
+2023-10-31 13:43:25 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s988ms).
+2023-10-31 13:49:08 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s960ms).
+2023-10-31 13:54:51 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s).
+2023-10-31 14:00:04 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s18ms).
+2023-10-31 14:05:47 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s997ms).
+2023-10-31 14:11:30 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s952ms).
+2023-10-31 14:16:43 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s8ms).
+2023-10-31 14:19:29 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m16s427ms).
+2023-10-31 14:24:42 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s5ms).
+2023-10-31 14:30:25 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s978ms).
+2023-10-31 14:33:20 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m25s385ms).
+2023-10-31 14:44:30 HikariPool-1 - Shutdown initiated...
+2023-10-31 14:44:30 HikariPool-1 - Shutdown completed.
+2023-10-31 14:44:32 Starting ManagerApplication using Java 17.0.9 with PID 37456 (/Users/linsz/Documents/linsux/backEnd/linsux/linsux/linsux-manager/target/classes started by linsz in /Users/linsz/Documents/linsux/backEnd/linsux/linsux)
+2023-10-31 14:44:32 The following 1 profile is active: "dev"
+2023-10-31 14:44:33 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-31 14:44:33 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-10-31 14:44:33 Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2023-10-31 14:44:33 Tomcat initialized with port(s): 8889 (http)
+2023-10-31 14:44:33 Initializing ProtocolHandler ["http-nio-8889"]
+2023-10-31 14:44:33 Starting service [Tomcat]
+2023-10-31 14:44:33 Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-10-31 14:44:33 Initializing Spring embedded WebApplicationContext
+2023-10-31 14:44:33 Root WebApplicationContext: initialization completed in 738 ms
+2023-10-31 14:44:34 Starting ProtocolHandler ["http-nio-8889"]
+2023-10-31 14:44:34 Tomcat started on port(s): 8889 (http) with context path ''
+2023-10-31 14:44:34 Started ManagerApplication in 1.758 seconds (process running for 2.039)
+2023-10-31 14:44:46 Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-31 14:44:46 Initializing Servlet 'dispatcherServlet'
+2023-10-31 14:44:46 Completed initialization in 1 ms
+2023-10-31 14:48:52 Starting ManagerApplication using Java 17.0.9 with PID 37663 (/Users/linsz/Documents/linsux/backEnd/linsux/linsux/linsux-manager/target/classes started by linsz in /Users/linsz/Documents/linsux/backEnd/linsux/linsux)
+2023-10-31 14:48:52 The following 1 profile is active: "dev"
+2023-10-31 14:48:53 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-31 14:48:53 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-10-31 14:48:53 Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2023-10-31 14:48:53 Tomcat initialized with port(s): 8889 (http)
+2023-10-31 14:48:53 Initializing ProtocolHandler ["http-nio-8889"]
+2023-10-31 14:48:53 Starting service [Tomcat]
+2023-10-31 14:48:53 Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-10-31 14:48:53 Initializing Spring embedded WebApplicationContext
+2023-10-31 14:48:53 Root WebApplicationContext: initialization completed in 699 ms
+2023-10-31 14:48:54 Starting ProtocolHandler ["http-nio-8889"]
+2023-10-31 14:48:54 Tomcat started on port(s): 8889 (http) with context path ''
+2023-10-31 14:48:54 Started ManagerApplication in 1.688 seconds (process running for 1.926)
+2023-10-31 14:49:00 Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-31 14:49:00 Initializing Servlet 'dispatcherServlet'
+2023-10-31 14:49:00 Completed initialization in 1 ms
+2023-10-31 14:52:58 Starting ManagerApplication using Java 17.0.9 with PID 37752 (/Users/linsz/Documents/linsux/backEnd/linsux/linsux/linsux-manager/target/classes started by linsz in /Users/linsz/Documents/linsux/backEnd/linsux/linsux)
+2023-10-31 14:52:58 The following 1 profile is active: "dev"
+2023-10-31 14:52:58 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-31 14:52:58 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-10-31 14:52:58 Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2023-10-31 14:52:58 Tomcat initialized with port(s): 8889 (http)
+2023-10-31 14:52:58 Initializing ProtocolHandler ["http-nio-8889"]
+2023-10-31 14:52:58 Starting service [Tomcat]
+2023-10-31 14:52:58 Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-10-31 14:52:58 Initializing Spring embedded WebApplicationContext
+2023-10-31 14:52:58 Root WebApplicationContext: initialization completed in 681 ms
+2023-10-31 14:52:59 Starting ProtocolHandler ["http-nio-8889"]
+2023-10-31 14:52:59 Tomcat started on port(s): 8889 (http) with context path ''
+2023-10-31 14:52:59 Started ManagerApplication in 1.692 seconds (process running for 1.919)
+2023-10-31 14:53:06 Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-31 14:53:06 Initializing Servlet 'dispatcherServlet'
+2023-10-31 14:53:06 Completed initialization in 2 ms
+2023-10-31 14:53:06 Init duration for springdoc-openapi is: 91 ms
+2023-10-31 14:53:10 Unable to make field private final java.lang.Class java.lang.invoke.SerializedLambda.capturingClass accessible: module java.base does not "opens java.lang.invoke" to unnamed module @1573f9fc
+2023-10-31 14:53:10 HikariPool-1 - Starting...
+2023-10-31 14:53:10 HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2c020ba9
+2023-10-31 14:53:10 HikariPool-1 - Start completed.
+2023-10-31 15:14:39 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=58s427ms).
+2023-10-31 15:19:52 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s54ms).
+2023-10-31 15:25:35 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s9ms).
+2023-10-31 15:30:48 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s7ms).
+2023-10-31 15:36:31 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s944ms).
+2023-10-31 15:38:32 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m30s671ms).
+2023-10-31 15:40:07 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m35s18ms).
+2023-10-31 15:45:50 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s984ms).
+2023-10-31 15:51:33 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s56ms).
+2023-10-31 15:57:16 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s60ms).
+2023-10-31 16:02:29 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s57ms).
+2023-10-31 16:08:12 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s49ms).
+2023-10-31 16:13:55 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s981ms).
+2023-10-31 16:19:08 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s3ms).
+2023-10-31 16:24:51 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s24ms).
+2023-10-31 16:30:34 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s98ms).
+2023-10-31 16:35:47 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s137ms).
+2023-10-31 16:39:27 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m9s889ms).
+2023-10-31 16:45:10 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s990ms).
+2023-10-31 16:50:53 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s45ms).
+2023-10-31 16:56:06 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s998ms).
+2023-10-31 17:01:49 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s988ms).
+2023-10-31 17:07:32 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s997ms).
+2023-10-31 17:12:45 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s999ms).
+2023-10-31 17:18:28 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s990ms).
+2023-10-31 17:21:44 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m45s957ms).
+2023-10-31 17:26:57 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s984ms).
+2023-10-31 17:32:40 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s6ms).
+2023-10-31 17:38:23 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s2ms).
+2023-10-31 17:43:36 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s29ms).
+2023-10-31 17:49:19 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s972ms).
+2023-10-31 17:57:02 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s985ms).
+2023-10-31 18:02:45 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s134ms).
+2023-10-31 18:04:38 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m22s201ms).
+2023-10-31 18:05:33 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=55s880ms).
+2023-10-31 18:06:55 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=51s881ms).
+2023-10-31 18:12:08 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s39ms).
+2023-10-31 18:17:51 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s4ms).
+2023-10-31 18:23:34 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s961ms).
+2023-10-31 18:28:47 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s973ms).
+2023-10-31 18:30:36 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m19s162ms).
+2023-10-31 18:36:19 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s2ms).
+2023-10-31 18:41:32 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s983ms).
+2023-10-31 18:47:15 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s992ms).
+2023-10-31 18:52:58 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s970ms).
+2023-10-31 18:58:41 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s37ms).
+2023-10-31 19:04:24 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s6ms).
+2023-10-31 19:09:37 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s933ms).
+2023-10-31 19:15:20 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s27ms).
+2023-10-31 19:21:03 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s996ms).
+2023-10-31 19:26:16 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s973ms).
+2023-10-31 19:31:59 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s53ms).
+2023-10-31 19:37:43 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s65ms).
+2023-10-31 19:42:56 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s16ms).
+2023-10-31 19:48:39 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s989ms).
+2023-10-31 19:54:22 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s998ms).
+2023-10-31 20:00:05 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s972ms).
+2023-10-31 20:05:18 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s983ms).
+2023-10-31 20:08:44 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m55s996ms).
+2023-10-31 20:11:12 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=58s361ms).
+2023-10-31 20:16:55 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s63ms).
+2023-10-31 20:22:08 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s44ms).
+2023-10-31 20:27:51 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s39ms).
+2023-10-31 20:33:04 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s999ms).
+2023-10-31 20:38:47 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s28ms).
+2023-10-31 20:44:30 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s12ms).
+2023-10-31 20:49:43 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s58ms).
+2023-10-31 20:55:26 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s999ms).
+2023-10-31 21:01:09 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s).
+2023-10-31 21:06:22 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s36ms).
+2023-10-31 21:12:05 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s976ms).
+2023-10-31 21:17:48 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s15ms).
+2023-10-31 22:11:50 HikariPool-1 - Retrograde clock change detected (housekeeper delta=26s8ms), soft-evicting connections from pool.
+2023-10-31 22:36:22 HikariPool-1 - Retrograde clock change detected (housekeeper delta=26s109ms), soft-evicting connections from pool.
+2023-11-01 01:44:10 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m27s907ms).
+2023-11-01 01:49:53 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s81ms).
+2023-11-01 01:55:06 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s986ms).
+2023-11-01 02:00:49 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s46ms).
+2023-11-01 02:06:32 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s986ms).
+2023-11-01 02:11:45 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s29ms).
+2023-11-01 02:17:28 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s970ms).
+2023-11-01 02:23:11 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s958ms).
+2023-11-01 02:28:24 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s6ms).
+2023-11-01 02:34:07 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s9ms).
+2023-11-01 02:39:50 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s980ms).
+2023-11-01 02:45:33 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s988ms).
+2023-11-01 02:51:16 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s988ms).
+2023-11-01 02:56:59 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s20ms).
+2023-11-01 03:02:12 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s978ms).
+2023-11-01 03:07:55 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s8ms).
+2023-11-01 03:13:38 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s959ms).
+2023-11-01 03:18:51 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s51ms).
+2023-11-01 03:24:34 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s930ms).
+2023-11-01 03:30:17 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s35ms).
+2023-11-01 03:35:30 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s44ms).
+2023-11-01 03:41:13 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s994ms).
+2023-11-01 03:46:56 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s957ms).
+2023-11-01 03:52:39 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s987ms).
+2023-11-01 03:58:22 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s998ms).
+2023-11-01 04:04:05 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s982ms).
+2023-11-01 04:09:18 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s32ms).
+2023-11-01 04:15:01 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s59ms).
+2023-11-01 04:20:44 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s978ms).
+2023-11-01 04:25:57 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s36ms).
+2023-11-01 04:31:40 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s2ms).
+2023-11-01 04:37:23 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s58ms).
+2023-11-01 04:42:36 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s4ms).
+2023-11-01 04:48:49 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s996ms).
+2023-11-01 04:54:02 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s998ms).
+2023-11-01 04:59:45 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s986ms).
+2023-11-01 05:05:28 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s969ms).
+2023-11-01 05:10:41 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s986ms).
+2023-11-01 05:16:24 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s1ms).
+2023-11-01 05:21:37 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s954ms).
+2023-11-01 05:27:20 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s979ms).
+2023-11-01 05:33:03 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s987ms).
+2023-11-01 05:38:16 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s47ms).
+2023-11-01 05:44:29 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s986ms).
+2023-11-01 05:50:12 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s4ms).
+2023-11-01 05:55:56 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s54ms).
+2023-11-01 06:01:39 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s982ms).
+2023-11-01 06:06:52 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s25ms).
+2023-11-01 06:12:35 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s11ms).
+2023-11-01 06:18:18 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s16ms).
+2023-11-01 06:23:31 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s117ms).
+2023-11-01 06:29:14 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s985ms).
+2023-11-01 06:34:57 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s953ms).
+2023-11-01 06:40:10 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s960ms).
+2023-11-01 06:45:53 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s980ms).
+2023-11-01 06:51:36 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s7ms).
+2023-11-01 06:57:19 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s35ms).
+2023-11-01 07:02:32 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s40ms).
+2023-11-01 07:08:15 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s980ms).
+2023-11-01 07:13:58 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s925ms).
+2023-11-01 07:19:11 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s975ms).
+2023-11-01 07:24:54 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s38ms).
+2023-11-01 07:30:37 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s4ms).
+2023-11-01 07:35:50 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s990ms).
+2023-11-01 07:41:33 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s967ms).
+2023-11-01 07:47:16 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s55ms).
+2023-11-01 07:52:59 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s32ms).
+2023-11-01 07:58:12 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s11ms).
+2023-11-01 08:03:55 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s979ms).
+2023-11-01 08:09:38 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s994ms).
+2023-11-01 08:14:51 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s996ms).
+2023-11-01 08:20:34 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s987ms).
+2023-11-01 08:26:17 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s985ms).
+2023-11-01 08:31:30 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s36ms).
+2023-11-01 08:37:13 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s973ms).
+2023-11-01 08:42:56 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s83ms).
+2023-11-01 08:48:39 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s988ms).
+2023-11-01 08:53:52 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s45ms).
+2023-11-01 08:59:35 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s15ms).
+2023-11-01 09:05:18 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s74ms).
+2023-11-01 09:10:31 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s997ms).
+2023-11-01 09:16:14 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s990ms).
+2023-11-01 09:21:57 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s986ms).
+2023-11-01 09:27:10 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s973ms).
+2023-11-01 09:32:53 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s965ms).
+2023-11-01 09:38:36 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s51ms).
+2023-11-01 09:43:49 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s972ms).
+2023-11-01 09:49:32 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s964ms).
+2023-11-01 09:55:15 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s968ms).
+2023-11-01 10:00:58 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s56ms).
+2023-11-01 10:06:11 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s988ms).
+2023-11-01 10:11:54 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s21ms).
+2023-11-01 10:17:37 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s8ms).
+2023-11-01 10:22:50 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s987ms).
+2023-11-01 10:28:33 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s914ms).
+2023-11-01 10:34:16 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s27ms).
+2023-11-01 10:39:59 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s988ms).
+2023-11-01 10:45:42 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s990ms).
+2023-11-01 10:51:25 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s70ms).
+2023-11-01 10:56:38 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s65ms).
+2023-11-01 11:02:21 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s972ms).
+2023-11-01 11:08:04 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s1ms).
+2023-11-01 11:13:17 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s984ms).
+2023-11-01 11:19:00 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s45ms).
+2023-11-01 11:23:17 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m46s719ms).
+2023-11-01 11:34:32 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s58ms).
+2023-11-01 11:37:26 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m23s666ms).
+2023-11-01 11:41:58 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m2s87ms).
+2023-11-01 11:42:56 HikariPool-1 - Retrograde clock change detected (housekeeper delta=27s779ms), soft-evicting connections from pool.
+2023-11-01 11:44:13 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m17s548ms).
+2023-11-01 11:49:56 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s990ms).
+2023-11-01 11:55:10 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s110ms).
+2023-11-01 12:01:30 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s973ms).
+2023-11-01 12:07:13 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s994ms).
+2023-11-01 12:12:02 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m18s363ms).
+2023-11-01 12:17:15 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s989ms).
+2023-11-01 12:23:28 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s6ms).
+2023-11-01 12:28:41 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s52ms).
+2023-11-01 12:35:26 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s932ms).
+2023-11-01 12:41:09 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s54ms).
+2023-11-01 12:46:52 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s67ms).
+2023-11-01 12:52:05 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s11ms).
+2023-11-01 12:57:48 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s82ms).
+2023-11-01 13:03:31 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s938ms).
+2023-11-01 13:08:44 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s945ms).
+2023-11-01 13:14:27 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s3ms).
+2023-11-01 13:23:40 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s79ms).
+2023-11-01 13:29:23 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s996ms).
+2023-11-01 13:35:06 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s61ms).
+2023-11-01 13:40:49 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s974ms).
+2023-11-01 13:46:32 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s9ms).
+2023-11-01 13:51:45 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s).
+2023-11-01 13:57:28 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s12ms).
+2023-11-01 14:04:41 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s).
+2023-11-01 14:10:24 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s989ms).
+2023-11-01 14:16:07 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s56ms).
+2023-11-01 14:21:20 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s973ms).
+2023-11-01 14:27:03 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s7ms).
+2023-11-01 14:32:46 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s25ms).
+2023-11-01 14:37:59 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s9ms).
+2023-11-01 14:43:42 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s20ms).
+2023-11-01 14:49:25 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s38ms).
+2023-11-01 14:55:08 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s15ms).
+2023-11-01 15:00:21 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s980ms).
+2023-11-01 15:06:04 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s4ms).
+2023-11-01 15:12:17 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s962ms).
+2023-11-01 15:18:00 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s978ms).
+2023-11-01 15:23:13 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s992ms).
+2023-11-01 15:28:56 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s987ms).
+2023-11-01 15:34:39 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s49ms).
+2023-11-01 15:39:52 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s70ms).
+2023-11-01 15:45:35 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s103ms).
+2023-11-01 15:51:19 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s89ms).
+2023-11-01 15:57:02 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s21ms).
+2023-11-01 16:02:15 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s54ms).
+2023-11-01 16:07:58 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s44ms).
+2023-11-01 16:13:41 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s47ms).
+2023-11-01 16:17:27 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m46s426ms).
+2023-11-01 16:23:10 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s7ms).
+2023-11-01 16:28:53 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s11ms).
+2023-11-01 16:34:06 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s53ms).
+2023-11-01 16:39:49 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s975ms).
+2023-11-01 16:46:02 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s978ms).
+2023-11-01 16:51:15 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s992ms).
+2023-11-01 16:56:58 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s17ms).
+2023-11-01 17:00:53 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m24s520ms).
+2023-11-01 17:57:43 HikariPool-1 - Shutdown initiated...
+2023-11-01 17:57:43 HikariPool-1 - Shutdown completed.
+2023-11-01 17:57:46 Starting ManagerApplication using Java 17.0.9 with PID 44380 (/Users/linsz/Documents/linsux/backEnd/linsux/linsux/linsux-manager/target/classes started by linsz in /Users/linsz/Documents/linsux/backEnd/linsux/linsux)
+2023-11-01 17:57:46 The following 1 profile is active: "dev"
+2023-11-01 17:57:47 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-11-01 17:57:47 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-11-01 17:57:47 Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2023-11-01 17:57:47 Tomcat initialized with port(s): 8889 (http)
+2023-11-01 17:57:47 Initializing ProtocolHandler ["http-nio-8889"]
+2023-11-01 17:57:47 Starting service [Tomcat]
+2023-11-01 17:57:47 Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-11-01 17:57:47 Initializing Spring embedded WebApplicationContext
+2023-11-01 17:57:47 Root WebApplicationContext: initialization completed in 714 ms
+2023-11-01 17:57:48 Starting ProtocolHandler ["http-nio-8889"]
+2023-11-01 17:57:48 Tomcat started on port(s): 8889 (http) with context path ''
+2023-11-01 17:57:48 Started ManagerApplication in 1.711 seconds (process running for 1.95)
+2023-11-01 17:57:54 Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-01 17:57:54 Initializing Servlet 'dispatcherServlet'
+2023-11-01 17:57:54 Completed initialization in 1 ms
+2023-11-01 18:00:18 Starting ManagerApplication using Java 17.0.9 with PID 44401 (/Users/linsz/Documents/linsux/backEnd/linsux/linsux/linsux-manager/target/classes started by linsz in /Users/linsz/Documents/linsux/backEnd/linsux/linsux)
+2023-11-01 18:00:18 The following 1 profile is active: "dev"
+2023-11-01 18:00:18 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-11-01 18:00:18 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-11-01 18:00:18 Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2023-11-01 18:00:19 Tomcat initialized with port(s): 8889 (http)
+2023-11-01 18:00:19 Initializing ProtocolHandler ["http-nio-8889"]
+2023-11-01 18:00:19 Starting service [Tomcat]
+2023-11-01 18:00:19 Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-11-01 18:00:19 Initializing Spring embedded WebApplicationContext
+2023-11-01 18:00:19 Root WebApplicationContext: initialization completed in 705 ms
+2023-11-01 18:00:19 Starting ProtocolHandler ["http-nio-8889"]
+2023-11-01 18:00:19 Tomcat started on port(s): 8889 (http) with context path ''
+2023-11-01 18:00:19 Started ManagerApplication in 1.669 seconds (process running for 1.89)
+2023-11-01 18:00:35 Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-01 18:00:35 Initializing Servlet 'dispatcherServlet'
+2023-11-01 18:00:35 Completed initialization in 1 ms
+2023-11-01 18:00:41 Unable to make field private final java.lang.Class java.lang.invoke.SerializedLambda.capturingClass accessible: module java.base does not "opens java.lang.invoke" to unnamed module @1573f9fc
+2023-11-01 18:00:41 HikariPool-1 - Starting...
+2023-11-01 18:00:41 HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1f9415a1
+2023-11-01 18:00:41 HikariPool-1 - Start completed.
+2023-11-01 18:42:16 HikariPool-1 - Shutdown initiated...
+2023-11-01 18:42:16 HikariPool-1 - Shutdown completed.
+2023-11-01 18:42:19 Starting ManagerApplication using Java 17.0.9 with PID 44933 (/Users/linsz/Documents/linsux/backEnd/linsux/linsux/linsux-manager/target/classes started by linsz in /Users/linsz/Documents/linsux/backEnd/linsux/linsux)
+2023-11-01 18:42:19 The following 1 profile is active: "dev"
+2023-11-01 18:42:20 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-11-01 18:42:20 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-11-01 18:42:20 Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2023-11-01 18:42:20 Tomcat initialized with port(s): 8889 (http)
+2023-11-01 18:42:20 Initializing ProtocolHandler ["http-nio-8889"]
+2023-11-01 18:42:20 Starting service [Tomcat]
+2023-11-01 18:42:20 Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-11-01 18:42:20 Initializing Spring embedded WebApplicationContext
+2023-11-01 18:42:20 Root WebApplicationContext: initialization completed in 793 ms
+2023-11-01 18:42:21 Starting ProtocolHandler ["http-nio-8889"]
+2023-11-01 18:42:21 Tomcat started on port(s): 8889 (http) with context path ''
+2023-11-01 18:42:21 Started ManagerApplication in 1.841 seconds (process running for 2.095)
+2023-11-01 18:42:41 Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-01 18:42:41 Initializing Servlet 'dispatcherServlet'
+2023-11-01 18:42:41 Completed initialization in 1 ms
+2023-11-01 18:47:06 Starting ManagerApplication using Java 17.0.9 with PID 45072 (/Users/linsz/Documents/linsux/backEnd/linsux/linsux/linsux-manager/target/classes started by linsz in /Users/linsz/Documents/linsux/backEnd/linsux/linsux)
+2023-11-01 18:47:06 The following 1 profile is active: "dev"
+2023-11-01 18:47:06 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-11-01 18:47:06 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-11-01 18:47:06 Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2023-11-01 18:47:07 Tomcat initialized with port(s): 8889 (http)
+2023-11-01 18:47:07 Initializing ProtocolHandler ["http-nio-8889"]
+2023-11-01 18:47:07 Starting service [Tomcat]
+2023-11-01 18:47:07 Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-11-01 18:47:07 Initializing Spring embedded WebApplicationContext
+2023-11-01 18:47:07 Root WebApplicationContext: initialization completed in 709 ms
+2023-11-01 18:47:08 Starting ProtocolHandler ["http-nio-8889"]
+2023-11-01 18:47:08 Tomcat started on port(s): 8889 (http) with context path ''
+2023-11-01 18:47:08 Started ManagerApplication in 1.816 seconds (process running for 2.151)
+2023-11-01 18:47:09 Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-01 18:47:09 Initializing Servlet 'dispatcherServlet'
+2023-11-01 18:47:09 Completed initialization in 1 ms
+2023-11-01 18:48:43 Starting ManagerApplication using Java 17.0.9 with PID 45097 (/Users/linsz/Documents/linsux/backEnd/linsux/linsux/linsux-manager/target/classes started by linsz in /Users/linsz/Documents/linsux/backEnd/linsux/linsux)
+2023-11-01 18:48:43 The following 1 profile is active: "dev"
+2023-11-01 18:48:44 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-11-01 18:48:44 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-11-01 18:48:44 Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2023-11-01 18:48:44 Tomcat initialized with port(s): 8889 (http)
+2023-11-01 18:48:44 Initializing ProtocolHandler ["http-nio-8889"]
+2023-11-01 18:48:44 Starting service [Tomcat]
+2023-11-01 18:48:44 Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-11-01 18:48:44 Initializing Spring embedded WebApplicationContext
+2023-11-01 18:48:44 Root WebApplicationContext: initialization completed in 749 ms
+2023-11-01 18:48:45 Starting ProtocolHandler ["http-nio-8889"]
+2023-11-01 18:48:45 Tomcat started on port(s): 8889 (http) with context path ''
+2023-11-01 18:48:45 Started ManagerApplication in 1.864 seconds (process running for 2.105)
+2023-11-01 18:48:49 Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-01 18:48:49 Initializing Servlet 'dispatcherServlet'
+2023-11-01 18:48:49 Completed initialization in 2 ms
+2023-11-01 18:57:25 Starting ManagerApplication using Java 17.0.9 with PID 45505 (/Users/linsz/Documents/linsux/backEnd/linsux/linsux/linsux-manager/target/classes started by linsz in /Users/linsz/Documents/linsux/backEnd/linsux/linsux)
+2023-11-01 18:57:25 The following 1 profile is active: "dev"
+2023-11-01 18:57:26 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-11-01 18:57:26 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-11-01 18:57:26 Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2023-11-01 18:57:26 Tomcat initialized with port(s): 8889 (http)
+2023-11-01 18:57:26 Initializing ProtocolHandler ["http-nio-8889"]
+2023-11-01 18:57:26 Starting service [Tomcat]
+2023-11-01 18:57:26 Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-11-01 18:57:26 Initializing Spring embedded WebApplicationContext
+2023-11-01 18:57:26 Root WebApplicationContext: initialization completed in 770 ms
+2023-11-01 18:57:27 Starting ProtocolHandler ["http-nio-8889"]
+2023-11-01 18:57:27 Tomcat started on port(s): 8889 (http) with context path ''
+2023-11-01 18:57:27 Started ManagerApplication in 1.874 seconds (process running for 2.114)
+2023-11-01 18:57:58 Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-01 18:57:58 Initializing Servlet 'dispatcherServlet'
+2023-11-01 18:57:58 Completed initialization in 1 ms
+2023-11-07 16:54:03 Starting ManagerApplication using Java 17.0.9 with PID 66526 (/Users/linsz/Documents/linsux/backEnd/linsux/linsux/linsux-manager/target/classes started by linsz in /Users/linsz/Documents/linsux/backEnd/linsux/linsux)
+2023-11-07 16:54:03 The following 1 profile is active: "dev"
+2023-11-07 16:54:03 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-11-07 16:54:03 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-11-07 16:54:03 Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2023-11-07 16:54:03 Tomcat initialized with port(s): 8889 (http)
+2023-11-07 16:54:03 Initializing ProtocolHandler ["http-nio-8889"]
+2023-11-07 16:54:03 Starting service [Tomcat]
+2023-11-07 16:54:03 Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-11-07 16:54:03 Initializing Spring embedded WebApplicationContext
+2023-11-07 16:54:03 Root WebApplicationContext: initialization completed in 705 ms
+2023-11-07 16:54:04 Starting ProtocolHandler ["http-nio-8889"]
+2023-11-07 16:54:04 Tomcat started on port(s): 8889 (http) with context path ''
+2023-11-07 16:54:04 Started ManagerApplication in 1.813 seconds (process running for 2.257)
+2023-11-07 16:54:20 Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-07 16:54:20 Initializing Servlet 'dispatcherServlet'
+2023-11-07 16:54:20 Completed initialization in 1 ms
+2023-11-07 16:56:46 Init duration for springdoc-openapi is: 133 ms
+2023-11-07 16:58:20 Unable to make field private final java.lang.Class java.lang.invoke.SerializedLambda.capturingClass accessible: module java.base does not "opens java.lang.invoke" to unnamed module @1573f9fc
+2023-11-07 16:58:20 HikariPool-1 - Starting...
+2023-11-07 16:58:21 HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@72db737c
+2023-11-07 16:58:21 HikariPool-1 - Start completed.
+2023-11-07 17:01:58 HikariPool-1 - Shutdown initiated...
+2023-11-07 17:01:58 HikariPool-1 - Shutdown completed.
+2023-11-07 17:02:00 Starting ManagerApplication using Java 17.0.9 with PID 66762 (/Users/linsz/Documents/linsux/backEnd/linsux/linsux/linsux-manager/target/classes started by linsz in /Users/linsz/Documents/linsux/backEnd/linsux/linsux)
+2023-11-07 17:02:00 The following 1 profile is active: "dev"
+2023-11-07 17:02:00 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-11-07 17:02:00 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-11-07 17:02:00 Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2023-11-07 17:02:00 Tomcat initialized with port(s): 8889 (http)
+2023-11-07 17:02:00 Initializing ProtocolHandler ["http-nio-8889"]
+2023-11-07 17:02:00 Starting service [Tomcat]
+2023-11-07 17:02:00 Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-11-07 17:02:00 Initializing Spring embedded WebApplicationContext
+2023-11-07 17:02:00 Root WebApplicationContext: initialization completed in 735 ms
+2023-11-07 17:02:01 Starting ProtocolHandler ["http-nio-8889"]
+2023-11-07 17:02:01 Tomcat started on port(s): 8889 (http) with context path ''
+2023-11-07 17:02:01 Started ManagerApplication in 1.809 seconds (process running for 2.049)
+2023-11-07 17:02:19 Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-07 17:02:19 Initializing Servlet 'dispatcherServlet'
+2023-11-07 17:02:19 Completed initialization in 1 ms
+2023-11-07 17:02:19 Init duration for springdoc-openapi is: 111 ms
+2023-11-07 17:11:31 Unable to make field private final java.lang.Class java.lang.invoke.SerializedLambda.capturingClass accessible: module java.base does not "opens java.lang.invoke" to unnamed module @1573f9fc
+2023-11-07 17:11:31 HikariPool-1 - Starting...
+2023-11-07 17:11:31 HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@700f10a7
+2023-11-07 17:11:31 HikariPool-1 - Start completed.
+2023-11-08 02:37:18 HikariPool-1 - Shutdown initiated...
+2023-11-08 02:37:18 HikariPool-1 - Shutdown completed.
+2023-11-08 02:37:19 Starting ManagerApplication using Java 17.0.9 with PID 77391 (/Users/linsz/Documents/linsux/backEnd/linsux/linsux/linsux-manager/target/classes started by linsz in /Users/linsz/Documents/linsux/backEnd/linsux/linsux)
+2023-11-08 02:37:19 The following 1 profile is active: "dev"
+2023-11-08 02:37:20 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-11-08 02:37:20 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-11-08 02:37:20 Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2023-11-08 02:37:20 Tomcat initialized with port(s): 8889 (http)
+2023-11-08 02:37:20 Initializing ProtocolHandler ["http-nio-8889"]
+2023-11-08 02:37:20 Starting service [Tomcat]
+2023-11-08 02:37:20 Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-11-08 02:37:20 Initializing Spring embedded WebApplicationContext
+2023-11-08 02:37:20 Root WebApplicationContext: initialization completed in 783 ms
+2023-11-08 02:37:21 Starting ProtocolHandler ["http-nio-8889"]
+2023-11-08 02:37:21 Tomcat started on port(s): 8889 (http) with context path ''
+2023-11-08 02:37:21 Started ManagerApplication in 1.913 seconds (process running for 2.276)
+2023-11-08 02:37:40 Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-08 02:37:40 Initializing Servlet 'dispatcherServlet'
+2023-11-08 02:37:40 Completed initialization in 1 ms
+2023-11-10 17:00:21 Starting ManagerApplication using Java 17.0.9 with PID 86639 (/Users/linsz/Documents/linsux/backEnd/linsux/linsux/linsux-manager/target/classes started by linsz in /Users/linsz/Documents/linsux/backEnd/linsux/linsux)
+2023-11-10 17:00:21 The following 1 profile is active: "dev"
+2023-11-10 17:00:22 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-11-10 17:00:22 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-11-10 17:00:22 Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2023-11-10 17:00:22 Tomcat initialized with port(s): 8889 (http)
+2023-11-10 17:00:22 Initializing ProtocolHandler ["http-nio-8889"]
+2023-11-10 17:00:22 Starting service [Tomcat]
+2023-11-10 17:00:22 Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-11-10 17:00:22 Initializing Spring embedded WebApplicationContext
+2023-11-10 17:00:22 Root WebApplicationContext: initialization completed in 762 ms
+2023-11-10 17:00:23 Starting ProtocolHandler ["http-nio-8889"]
+2023-11-10 17:00:23 Tomcat started on port(s): 8889 (http) with context path ''
+2023-11-10 17:00:23 Started ManagerApplication in 1.847 seconds (process running for 2.196)
+2023-11-10 17:03:17 Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-10 17:03:17 Initializing Servlet 'dispatcherServlet'
+2023-11-10 17:03:17 Completed initialization in 1 ms
+2023-11-10 17:13:18 Unable to make field private final java.lang.Class java.lang.invoke.SerializedLambda.capturingClass accessible: module java.base does not "opens java.lang.invoke" to unnamed module @1573f9fc
+2023-11-10 17:13:18 HikariPool-1 - Starting...
+2023-11-10 17:13:18 HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@8bb05d4
+2023-11-10 17:13:18 HikariPool-1 - Start completed.
+2023-11-10 17:48:27 HikariPool-1 - Shutdown initiated...
+2023-11-10 17:48:27 HikariPool-1 - Shutdown completed.
+2023-11-10 17:48:30 Starting ManagerApplication using Java 17.0.9 with PID 98948 (/Users/linsz/Documents/linsux/backEnd/linsux/linsux/linsux-manager/target/classes started by linsz in /Users/linsz/Documents/linsux/backEnd/linsux/linsux)
+2023-11-10 17:48:30 The following 1 profile is active: "dev"
+2023-11-10 17:48:30 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-11-10 17:48:30 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-11-10 17:48:30 Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2023-11-10 17:48:31 Tomcat initialized with port(s): 8889 (http)
+2023-11-10 17:48:31 Initializing ProtocolHandler ["http-nio-8889"]
+2023-11-10 17:48:31 Starting service [Tomcat]
+2023-11-10 17:48:31 Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-11-10 17:48:31 Initializing Spring embedded WebApplicationContext
+2023-11-10 17:48:31 Root WebApplicationContext: initialization completed in 761 ms
+2023-11-10 17:48:31 Starting ProtocolHandler ["http-nio-8889"]
+2023-11-10 17:48:31 Tomcat started on port(s): 8889 (http) with context path ''
+2023-11-10 17:48:31 Started ManagerApplication in 1.824 seconds (process running for 2.093)
+2023-11-10 17:48:36 Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-10 17:48:36 Initializing Servlet 'dispatcherServlet'
+2023-11-10 17:48:36 Completed initialization in 2 ms
+2023-11-10 17:48:37 Init duration for springdoc-openapi is: 103 ms
+2023-11-10 17:52:32 Starting ManagerApplication using Java 17.0.9 with PID 99948 (/Users/linsz/Documents/linsux/backEnd/linsux/linsux/linsux-manager/target/classes started by linsz in /Users/linsz/Documents/linsux/backEnd/linsux/linsux)
+2023-11-10 17:52:32 The following 1 profile is active: "dev"
+2023-11-10 17:52:32 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-11-10 17:52:32 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-11-10 17:52:32 Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2023-11-10 17:52:32 Tomcat initialized with port(s): 8889 (http)
+2023-11-10 17:52:32 Initializing ProtocolHandler ["http-nio-8889"]
+2023-11-10 17:52:32 Starting service [Tomcat]
+2023-11-10 17:52:32 Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-11-10 17:52:32 Initializing Spring embedded WebApplicationContext
+2023-11-10 17:52:32 Root WebApplicationContext: initialization completed in 737 ms
+2023-11-10 17:52:33 Starting ProtocolHandler ["http-nio-8889"]
+2023-11-10 17:52:33 Tomcat started on port(s): 8889 (http) with context path ''
+2023-11-10 17:52:33 Started ManagerApplication in 1.732 seconds (process running for 1.972)
+2023-11-10 18:37:21 Starting ManagerApplication using Java 17.0.9 with PID 11735 (/Users/linsz/Documents/linsux/backEnd/linsux/linsux/linsux-manager/target/classes started by linsz in /Users/linsz/Documents/linsux/backEnd/linsux/linsux)
+2023-11-10 18:37:21 The following 1 profile is active: "dev"
+2023-11-10 18:37:22 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-11-10 18:37:22 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-11-10 18:37:22 Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2023-11-10 18:37:22 Tomcat initialized with port(s): 8889 (http)
+2023-11-10 18:37:22 Initializing ProtocolHandler ["http-nio-8889"]
+2023-11-10 18:37:22 Starting service [Tomcat]
+2023-11-10 18:37:22 Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-11-10 18:37:22 Initializing Spring embedded WebApplicationContext
+2023-11-10 18:37:22 Root WebApplicationContext: initialization completed in 727 ms
+2023-11-10 18:37:23 Starting ProtocolHandler ["http-nio-8889"]
+2023-11-10 18:37:23 Tomcat started on port(s): 8889 (http) with context path ''
+2023-11-10 18:37:23 Started ManagerApplication in 1.751 seconds (process running for 1.999)
+2023-11-10 18:46:26 Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-10 18:46:26 Initializing Servlet 'dispatcherServlet'
+2023-11-10 18:46:26 Completed initialization in 4 ms
+2023-11-10 18:50:38 Starting ManagerApplication using Java 17.0.9 with PID 15054 (/Users/linsz/Documents/linsux/backEnd/linsux/linsux/linsux-manager/target/classes started by linsz in /Users/linsz/Documents/linsux/backEnd/linsux/linsux)
+2023-11-10 18:50:38 The following 1 profile is active: "dev"
+2023-11-10 18:50:38 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-11-10 18:50:38 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-11-10 18:50:38 Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2023-11-10 18:50:38 Tomcat initialized with port(s): 8889 (http)
+2023-11-10 18:50:38 Initializing ProtocolHandler ["http-nio-8889"]
+2023-11-10 18:50:38 Starting service [Tomcat]
+2023-11-10 18:50:38 Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-11-10 18:50:38 Initializing Spring embedded WebApplicationContext
+2023-11-10 18:50:38 Root WebApplicationContext: initialization completed in 739 ms
+2023-11-10 18:50:39 Starting ProtocolHandler ["http-nio-8889"]
+2023-11-10 18:50:39 Tomcat started on port(s): 8889 (http) with context path ''
+2023-11-10 18:50:39 Started ManagerApplication in 1.763 seconds (process running for 2.003)
+2023-11-10 18:51:00 Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-10 18:51:00 Initializing Servlet 'dispatcherServlet'
+2023-11-10 18:51:00 Completed initialization in 1 ms
+2023-11-10 18:51:42 Starting ManagerApplication using Java 17.0.9 with PID 15327 (/Users/linsz/Documents/linsux/backEnd/linsux/linsux/linsux-manager/target/classes started by linsz in /Users/linsz/Documents/linsux/backEnd/linsux/linsux)
+2023-11-10 18:51:42 The following 1 profile is active: "dev"
+2023-11-10 18:51:43 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-11-10 18:51:43 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-11-10 18:51:43 Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2023-11-10 18:51:43 Tomcat initialized with port(s): 8889 (http)
+2023-11-10 18:51:43 Initializing ProtocolHandler ["http-nio-8889"]
+2023-11-10 18:51:43 Starting service [Tomcat]
+2023-11-10 18:51:43 Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-11-10 18:51:43 Initializing Spring embedded WebApplicationContext
+2023-11-10 18:51:43 Root WebApplicationContext: initialization completed in 702 ms
+2023-11-10 18:51:44 Starting ProtocolHandler ["http-nio-8889"]
+2023-11-10 18:51:44 Tomcat started on port(s): 8889 (http) with context path ''
+2023-11-10 18:51:44 Started ManagerApplication in 1.689 seconds (process running for 1.939)
+2023-11-10 18:51:49 Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-10 18:51:49 Initializing Servlet 'dispatcherServlet'
+2023-11-10 18:51:49 Completed initialization in 2 ms
+2023-11-10 18:52:18 Starting ManagerApplication using Java 17.0.9 with PID 15491 (/Users/linsz/Documents/linsux/backEnd/linsux/linsux/linsux-manager/target/classes started by linsz in /Users/linsz/Documents/linsux/backEnd/linsux/linsux)
+2023-11-10 18:52:18 The following 1 profile is active: "dev"
+2023-11-10 18:52:19 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-11-10 18:52:19 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-11-10 18:52:19 Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2023-11-10 18:52:19 Tomcat initialized with port(s): 8889 (http)
+2023-11-10 18:52:19 Initializing ProtocolHandler ["http-nio-8889"]
+2023-11-10 18:52:19 Starting service [Tomcat]
+2023-11-10 18:52:19 Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-11-10 18:52:19 Initializing Spring embedded WebApplicationContext
+2023-11-10 18:52:19 Root WebApplicationContext: initialization completed in 734 ms
+2023-11-10 18:52:20 Starting ProtocolHandler ["http-nio-8889"]
+2023-11-10 18:52:20 Tomcat started on port(s): 8889 (http) with context path ''
+2023-11-10 18:52:20 Started ManagerApplication in 1.783 seconds (process running for 2.04)
+2023-11-10 18:52:28 Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-10 18:52:28 Initializing Servlet 'dispatcherServlet'
+2023-11-10 18:52:28 Completed initialization in 0 ms
+2023-11-10 18:53:55 Starting ManagerApplication using Java 17.0.9 with PID 15891 (/Users/linsz/Documents/linsux/backEnd/linsux/linsux/linsux-manager/target/classes started by linsz in /Users/linsz/Documents/linsux/backEnd/linsux/linsux)
+2023-11-10 18:53:55 The following 1 profile is active: "dev"
+2023-11-10 18:53:56 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-11-10 18:53:56 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-11-10 18:53:56 Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2023-11-10 18:53:56 Tomcat initialized with port(s): 8889 (http)
+2023-11-10 18:53:56 Initializing ProtocolHandler ["http-nio-8889"]
+2023-11-10 18:53:56 Starting service [Tomcat]
+2023-11-10 18:53:56 Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-11-10 18:53:56 Initializing Spring embedded WebApplicationContext
+2023-11-10 18:53:56 Root WebApplicationContext: initialization completed in 721 ms
+2023-11-10 18:53:57 Starting ProtocolHandler ["http-nio-8889"]
+2023-11-10 18:53:57 Tomcat started on port(s): 8889 (http) with context path ''
+2023-11-10 18:53:57 Started ManagerApplication in 1.743 seconds (process running for 1.971)
+2023-11-10 18:54:01 Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-10 18:54:01 Initializing Servlet 'dispatcherServlet'
+2023-11-10 18:54:01 Completed initialization in 1 ms
+2023-11-10 18:54:40 Starting ManagerApplication using Java 17.0.9 with PID 16089 (/Users/linsz/Documents/linsux/backEnd/linsux/linsux/linsux-manager/target/classes started by linsz in /Users/linsz/Documents/linsux/backEnd/linsux/linsux)
+2023-11-10 18:54:40 The following 1 profile is active: "dev"
+2023-11-10 18:54:41 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-11-10 18:54:41 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-11-10 18:54:41 Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2023-11-10 18:54:41 Tomcat initialized with port(s): 8889 (http)
+2023-11-10 18:54:41 Initializing ProtocolHandler ["http-nio-8889"]
+2023-11-10 18:54:41 Starting service [Tomcat]
+2023-11-10 18:54:41 Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-11-10 18:54:41 Initializing Spring embedded WebApplicationContext
+2023-11-10 18:54:41 Root WebApplicationContext: initialization completed in 692 ms
+2023-11-10 18:54:42 Starting ProtocolHandler ["http-nio-8889"]
+2023-11-10 18:54:42 Tomcat started on port(s): 8889 (http) with context path ''
+2023-11-10 18:54:42 Started ManagerApplication in 1.681 seconds (process running for 1.907)
+2023-11-10 18:54:48 Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-10 18:54:48 Initializing Servlet 'dispatcherServlet'
+2023-11-10 18:54:48 Completed initialization in 2 ms
+2023-11-10 18:58:24 Starting ManagerApplication using Java 17.0.9 with PID 17026 (/Users/linsz/Documents/linsux/backEnd/linsux/linsux/linsux-manager/target/classes started by linsz in /Users/linsz/Documents/linsux/backEnd/linsux/linsux)
+2023-11-10 18:58:24 The following 1 profile is active: "dev"
+2023-11-10 18:58:24 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-11-10 18:58:24 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-11-10 18:58:24 Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2023-11-10 18:58:24 Tomcat initialized with port(s): 8889 (http)
+2023-11-10 18:58:24 Initializing ProtocolHandler ["http-nio-8889"]
+2023-11-10 18:58:24 Starting service [Tomcat]
+2023-11-10 18:58:24 Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-11-10 18:58:24 Initializing Spring embedded WebApplicationContext
+2023-11-10 18:58:24 Root WebApplicationContext: initialization completed in 673 ms
+2023-11-10 18:58:25 Starting ProtocolHandler ["http-nio-8889"]
+2023-11-10 18:58:25 Tomcat started on port(s): 8889 (http) with context path ''
+2023-11-10 18:58:25 Started ManagerApplication in 1.658 seconds (process running for 1.885)
+2023-11-10 18:58:34 Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-10 18:58:34 Initializing Servlet 'dispatcherServlet'
+2023-11-10 18:58:34 Completed initialization in 1 ms
+2023-11-10 19:00:00 Starting ManagerApplication using Java 17.0.9 with PID 17428 (/Users/linsz/Documents/linsux/backEnd/linsux/linsux/linsux-manager/target/classes started by linsz in /Users/linsz/Documents/linsux/backEnd/linsux/linsux)
+2023-11-10 19:00:00 The following 1 profile is active: "dev"
+2023-11-10 19:00:01 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-11-10 19:00:01 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-11-10 19:00:01 Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2023-11-10 19:00:01 Tomcat initialized with port(s): 8889 (http)
+2023-11-10 19:00:01 Initializing ProtocolHandler ["http-nio-8889"]
+2023-11-10 19:00:01 Starting service [Tomcat]
+2023-11-10 19:00:01 Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-11-10 19:00:01 Initializing Spring embedded WebApplicationContext
+2023-11-10 19:00:01 Root WebApplicationContext: initialization completed in 718 ms
+2023-11-10 19:00:02 Starting ProtocolHandler ["http-nio-8889"]
+2023-11-10 19:00:02 Tomcat started on port(s): 8889 (http) with context path ''
+2023-11-10 19:00:02 Started ManagerApplication in 1.766 seconds (process running for 1.999)
+2023-11-10 19:00:08 Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-10 19:00:08 Initializing Servlet 'dispatcherServlet'
+2023-11-10 19:00:08 Completed initialization in 0 ms
+2023-11-10 19:00:58 Starting ManagerApplication using Java 17.0.9 with PID 17683 (/Users/linsz/Documents/linsux/backEnd/linsux/linsux/linsux-manager/target/classes started by linsz in /Users/linsz/Documents/linsux/backEnd/linsux/linsux)
+2023-11-10 19:00:58 The following 1 profile is active: "dev"
+2023-11-10 19:00:58 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-11-10 19:00:58 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-11-10 19:00:58 Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2023-11-10 19:00:58 Tomcat initialized with port(s): 8889 (http)
+2023-11-10 19:00:58 Initializing ProtocolHandler ["http-nio-8889"]
+2023-11-10 19:00:58 Starting service [Tomcat]
+2023-11-10 19:00:58 Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-11-10 19:00:58 Initializing Spring embedded WebApplicationContext
+2023-11-10 19:00:58 Root WebApplicationContext: initialization completed in 681 ms
+2023-11-10 19:00:59 Starting ProtocolHandler ["http-nio-8889"]
+2023-11-10 19:00:59 Tomcat started on port(s): 8889 (http) with context path ''
+2023-11-10 19:00:59 Started ManagerApplication in 1.669 seconds (process running for 1.899)
+2023-11-10 19:01:04 Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-10 19:01:04 Initializing Servlet 'dispatcherServlet'
+2023-11-10 19:01:04 Completed initialization in 0 ms
+2023-11-10 19:02:20 Starting ManagerApplication using Java 17.0.9 with PID 18031 (/Users/linsz/Documents/linsux/backEnd/linsux/linsux/linsux-manager/target/classes started by linsz in /Users/linsz/Documents/linsux/backEnd/linsux/linsux)
+2023-11-10 19:02:20 The following 1 profile is active: "dev"
+2023-11-10 19:02:21 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-11-10 19:02:21 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-11-10 19:02:21 Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2023-11-10 19:02:21 Tomcat initialized with port(s): 8889 (http)
+2023-11-10 19:02:21 Initializing ProtocolHandler ["http-nio-8889"]
+2023-11-10 19:02:21 Starting service [Tomcat]
+2023-11-10 19:02:21 Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-11-10 19:02:21 Initializing Spring embedded WebApplicationContext
+2023-11-10 19:02:21 Root WebApplicationContext: initialization completed in 724 ms
+2023-11-10 19:02:22 Starting ProtocolHandler ["http-nio-8889"]
+2023-11-10 19:02:22 Tomcat started on port(s): 8889 (http) with context path ''
+2023-11-10 19:02:22 Started ManagerApplication in 1.713 seconds (process running for 1.941)
+2023-11-10 19:02:25 Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-10 19:02:25 Initializing Servlet 'dispatcherServlet'
+2023-11-10 19:02:25 Completed initialization in 1 ms
+2023-11-10 19:03:54 Starting ManagerApplication using Java 17.0.9 with PID 18435 (/Users/linsz/Documents/linsux/backEnd/linsux/linsux/linsux-manager/target/classes started by linsz in /Users/linsz/Documents/linsux/backEnd/linsux/linsux)
+2023-11-10 19:03:54 The following 1 profile is active: "dev"
+2023-11-10 19:03:55 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-11-10 19:03:55 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-11-10 19:03:55 Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2023-11-10 19:03:55 Tomcat initialized with port(s): 8889 (http)
+2023-11-10 19:03:55 Initializing ProtocolHandler ["http-nio-8889"]
+2023-11-10 19:03:55 Starting service [Tomcat]
+2023-11-10 19:03:55 Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-11-10 19:03:55 Initializing Spring embedded WebApplicationContext
+2023-11-10 19:03:55 Root WebApplicationContext: initialization completed in 693 ms
+2023-11-10 19:03:56 Starting ProtocolHandler ["http-nio-8889"]
+2023-11-10 19:03:56 Tomcat started on port(s): 8889 (http) with context path ''
+2023-11-10 19:03:56 Started ManagerApplication in 1.702 seconds (process running for 1.927)
+2023-11-10 19:04:03 Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-10 19:04:03 Initializing Servlet 'dispatcherServlet'
+2023-11-10 19:04:03 Completed initialization in 1 ms
+2023-11-10 19:04:04 Init duration for springdoc-openapi is: 117 ms
+2023-11-11 02:33:23 Unable to make field private final java.lang.Class java.lang.invoke.SerializedLambda.capturingClass accessible: module java.base does not "opens java.lang.invoke" to unnamed module @1573f9fc
+2023-11-11 02:33:23 HikariPool-1 - Starting...
+2023-11-11 02:33:23 HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@48c80548
+2023-11-11 02:33:23 HikariPool-1 - Start completed.
+2023-11-11 03:26:39 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s21ms).
+2023-11-11 03:31:52 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s999ms).
+2023-11-11 03:37:35 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s16ms).
+2023-11-11 03:43:17 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s974ms).
+2023-11-11 03:45:02 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m44s501ms).
+2023-11-11 03:50:45 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s44ms).
+2023-11-11 03:55:58 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s187ms).
+2023-11-11 04:02:11 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s51ms).
+2023-11-11 04:07:24 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s990ms).
+2023-11-11 04:13:07 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s34ms).
+2023-11-11 04:18:50 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s937ms).
+2023-11-11 04:24:03 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s46ms).
+2023-11-11 04:29:46 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s907ms).
+2023-11-11 04:35:29 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s49ms).
+2023-11-11 04:40:42 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s74ms).
+2023-11-11 04:46:25 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s999ms).
+2023-11-11 04:52:08 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s32ms).
+2023-11-11 04:57:51 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s916ms).
+2023-11-11 05:03:04 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s8ms).
+2023-11-11 05:08:47 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s939ms).
+2023-11-11 05:14:30 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s916ms).
+2023-11-11 05:19:43 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s994ms).
+2023-11-11 05:25:26 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s118ms).
+2023-11-11 05:31:09 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s935ms).
+2023-11-11 05:36:22 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s951ms).
+2023-11-11 05:42:05 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s6ms).
+2023-11-11 05:47:48 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s23ms).
+2023-11-11 05:53:01 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s98ms).
+2023-11-11 05:58:44 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s10ms).
+2023-11-11 06:04:27 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s18ms).
+2023-11-11 06:10:10 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s881ms).
+2023-11-11 06:15:23 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s996ms).
+2023-11-11 09:51:56 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=18m31s416ms).
+2023-11-11 11:03:50 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h11m53s632ms).
+2023-11-11 12:08:36 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h4m46s315ms).
+2023-11-11 13:03:17 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=54m41s207ms).
+2023-11-11 13:27:23 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m35s351ms).
+2023-11-11 14:20:27 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=53m4s842ms).
+2023-11-11 14:39:37 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=19m9s922ms).
+2023-11-11 14:55:32 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m54s908ms).
+2023-11-11 16:17:55 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h22m22s761ms).
+2023-11-11 17:40:34 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h22m39s246ms).
+2023-11-11 18:51:39 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h11m4s851ms).
+2023-11-11 19:08:16 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m36s404ms).
+2023-11-11 20:30:15 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h21m29s484ms).
+2023-11-11 21:52:01 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h21m46s94ms).
+2023-11-11 23:10:19 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h18m17s997ms).
+2023-11-12 00:28:33 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h18m13s819ms).
+2023-11-12 01:23:42 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=55m9s80ms).
+2023-11-12 02:44:58 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h21m15s743ms).
+2023-11-12 04:22:30 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h37m32s291ms).
+2023-11-12 05:46:52 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h24m22s17ms).
+2023-11-12 07:08:11 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h21m19s30ms).
+2023-11-12 08:26:31 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h18m19s958ms).
+2023-11-12 09:51:25 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h24m53s808ms).
+2023-11-12 11:27:46 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h36m21s532ms).
+2023-11-12 12:32:30 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h4m43s839ms).
+2023-11-12 13:19:36 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=47m5s312ms).
+2023-11-12 13:36:04 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m28s175ms).
+2023-11-12 13:54:16 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=18m12s73ms).
+2023-11-12 14:27:14 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=32m58s139ms).
+2023-11-12 16:06:58 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h39m44s121ms).
+2023-11-12 16:58:37 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=51m38s527ms).
+2023-11-12 17:14:32 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m54s962ms).
+2023-11-12 18:19:40 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h5m8s176ms).
+2023-11-12 19:31:59 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h12m19s617ms).
+2023-11-12 19:54:11 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m59s386ms).
+2023-11-12 21:00:42 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h6m30s286ms).
+2023-11-12 21:51:23 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=50m41s487ms).
+2023-11-12 22:25:15 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=33m21s637ms).
+2023-11-12 23:49:32 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h24m17s557ms).
+2023-11-13 01:09:10 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h19m37s386ms).
+2023-11-13 02:44:53 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h35m43s247ms).
+2023-11-13 03:03:10 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=18m17s369ms).
+2023-11-13 03:32:11 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m53s660ms).
+2023-11-13 04:20:41 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=48m29s909ms).
+2023-11-13 04:51:38 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=30m57s63ms).
+2023-11-13 05:08:03 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m54s996ms).
+2023-11-13 06:13:45 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h5m41s974ms).
+2023-11-13 07:36:17 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h22m31s625ms).
+2023-11-13 08:50:07 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h13m50s285ms).
+2023-11-13 10:11:55 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h21m47s770ms).
+2023-11-13 11:34:20 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h22m25s412ms).
+2023-11-13 13:12:16 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h37m55s912ms).
+2023-11-13 14:33:16 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h20m59s757ms).
+2023-11-13 15:40:08 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h6m52s696ms).
+2023-11-13 17:03:04 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h22m55s794ms).
+2023-11-13 18:45:04 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h42m10ms).
+2023-11-13 19:55:07 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h10m2s579ms).
+2023-11-13 21:19:59 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h24m51s816ms).
+2023-11-13 21:41:31 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=21m32s327ms).
+2023-11-13 22:35:41 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m9s952ms).
+2023-11-13 23:07:48 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=32m7s213ms).
+2023-11-13 23:53:22 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=45m33s849ms).
+2023-11-14 00:37:19 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=43m56s451ms).
+2023-11-14 01:37:27 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h8s604ms).
+2023-11-14 01:38:49 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m21s736ms).
+2023-11-14 01:41:59 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m10s100ms).
+2023-11-14 01:59:48 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m49s297ms).
+2023-11-14 02:15:43 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m54s945ms).
+2023-11-14 02:32:08 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m54s862ms).
+2023-11-14 03:56:10 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h24m1s222ms).
+2023-11-14 05:15:50 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h19m40s391ms).
+2023-11-14 06:38:24 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h22m33s740ms).
+2023-11-14 08:03:19 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h24m55s457ms).
+2023-11-14 09:25:27 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h22m7s843ms).
+2023-11-14 10:49:38 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h24m11s488ms).
+2023-11-14 12:12:54 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h23m15s155ms).
+2023-11-14 12:24:13 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m49s808ms).
+2023-11-14 12:35:34 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m50s772ms).
+2023-11-14 13:56:05 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h20m30s975ms).
+2023-11-14 15:07:27 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h11m21s756ms).
+2023-11-14 16:45:43 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h38m15s995ms).
+2023-11-14 17:56:53 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h11m9s684ms).
+2023-11-14 17:57:16 HikariPool-1 - Retrograde clock change detected (housekeeper delta=23s369ms), soft-evicting connections from pool.
+2023-11-14 18:49:19 HikariPool-1 - Shutdown initiated...
+2023-11-14 18:49:19 HikariPool-1 - Shutdown completed.
+2023-11-14 18:49:22 Starting ManagerApplication using Java 17.0.9 with PID 54283 (/Users/linsz/Documents/linsux/backEnd/linsux/linsux/linsux-manager/target/classes started by linsz in /Users/linsz/Documents/linsux/backEnd/linsux/linsux)
+2023-11-14 18:49:22 The following 1 profile is active: "dev"
+2023-11-14 18:49:23 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-11-14 18:49:23 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-11-14 18:49:23 Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2023-11-14 18:49:23 Tomcat initialized with port(s): 8889 (http)
+2023-11-14 18:49:23 Initializing ProtocolHandler ["http-nio-8889"]
+2023-11-14 18:49:23 Starting service [Tomcat]
+2023-11-14 18:49:23 Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-11-14 18:49:23 Initializing Spring embedded WebApplicationContext
+2023-11-14 18:49:23 Root WebApplicationContext: initialization completed in 729 ms
+2023-11-14 18:49:24 Starting ProtocolHandler ["http-nio-8889"]
+2023-11-14 18:49:24 Tomcat started on port(s): 8889 (http) with context path ''
+2023-11-14 18:49:24 Started ManagerApplication in 1.792 seconds (process running for 2.031)
+2023-11-14 18:49:40 Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-14 18:49:40 Initializing Servlet 'dispatcherServlet'
+2023-11-14 18:49:40 Completed initialization in 1 ms
+2023-11-14 18:50:09 Starting ManagerApplication using Java 17.0.9 with PID 54502 (/Users/linsz/Documents/linsux/backEnd/linsux/linsux/linsux-manager/target/classes started by linsz in /Users/linsz/Documents/linsux/backEnd/linsux/linsux)
+2023-11-14 18:50:09 The following 1 profile is active: "dev"
+2023-11-14 18:50:09 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-11-14 18:50:09 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-11-14 18:50:09 Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2023-11-14 18:50:09 Tomcat initialized with port(s): 8889 (http)
+2023-11-14 18:50:09 Initializing ProtocolHandler ["http-nio-8889"]
+2023-11-14 18:50:09 Starting service [Tomcat]
+2023-11-14 18:50:09 Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-11-14 18:50:09 Initializing Spring embedded WebApplicationContext
+2023-11-14 18:50:09 Root WebApplicationContext: initialization completed in 712 ms
+2023-11-14 18:50:10 Starting ProtocolHandler ["http-nio-8889"]
+2023-11-14 18:50:10 Tomcat started on port(s): 8889 (http) with context path ''
+2023-11-14 18:50:10 Started ManagerApplication in 1.776 seconds (process running for 2.016)
+2023-11-14 18:51:50 Starting ManagerApplication using Java 17.0.9 with PID 54969 (/Users/linsz/Documents/linsux/backEnd/linsux/linsux/linsux-manager/target/classes started by linsz in /Users/linsz/Documents/linsux/backEnd/linsux/linsux)
+2023-11-14 18:51:50 The following 1 profile is active: "dev"
+2023-11-14 18:51:50 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-11-14 18:51:50 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-11-14 18:51:50 Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2023-11-14 18:51:50 Tomcat initialized with port(s): 8889 (http)
+2023-11-14 18:51:50 Initializing ProtocolHandler ["http-nio-8889"]
+2023-11-14 18:51:50 Starting service [Tomcat]
+2023-11-14 18:51:50 Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-11-14 18:51:50 Initializing Spring embedded WebApplicationContext
+2023-11-14 18:51:50 Root WebApplicationContext: initialization completed in 733 ms
+2023-11-14 18:51:51 Starting ProtocolHandler ["http-nio-8889"]
+2023-11-14 18:51:51 Tomcat started on port(s): 8889 (http) with context path ''
+2023-11-14 18:51:51 Started ManagerApplication in 1.786 seconds (process running for 2.017)
+2023-11-14 18:52:16 Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-14 18:52:16 Initializing Servlet 'dispatcherServlet'
+2023-11-14 18:52:16 Completed initialization in 1 ms
+2023-11-14 18:54:51 Starting ManagerApplication using Java 17.0.9 with PID 55730 (/Users/linsz/Documents/linsux/backEnd/linsux/linsux/linsux-manager/target/classes started by linsz in /Users/linsz/Documents/linsux/backEnd/linsux/linsux)
+2023-11-14 18:54:51 The following 1 profile is active: "dev"
+2023-11-14 18:54:52 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-11-14 18:54:52 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-11-14 18:54:52 Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2023-11-14 18:54:52 Tomcat initialized with port(s): 8889 (http)
+2023-11-14 18:54:52 Initializing ProtocolHandler ["http-nio-8889"]
+2023-11-14 18:54:52 Starting service [Tomcat]
+2023-11-14 18:54:52 Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-11-14 18:54:52 Initializing Spring embedded WebApplicationContext
+2023-11-14 18:54:52 Root WebApplicationContext: initialization completed in 711 ms
+2023-11-14 18:54:53 Starting ProtocolHandler ["http-nio-8889"]
+2023-11-14 18:54:53 Tomcat started on port(s): 8889 (http) with context path ''
+2023-11-14 18:54:53 Started ManagerApplication in 1.749 seconds (process running for 1.971)
+2023-11-14 18:55:00 Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-14 18:55:00 Initializing Servlet 'dispatcherServlet'
+2023-11-14 18:55:00 Completed initialization in 1 ms
+2023-11-14 18:55:14 Unable to make field private final java.lang.Class java.lang.invoke.SerializedLambda.capturingClass accessible: module java.base does not "opens java.lang.invoke" to unnamed module @1573f9fc
+2023-11-14 18:55:14 HikariPool-1 - Starting...
+2023-11-14 18:55:14 HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@726e1588
+2023-11-14 18:55:14 HikariPool-1 - Start completed.
+2023-11-14 18:58:32 HikariPool-1 - Shutdown initiated...
+2023-11-14 18:58:32 HikariPool-1 - Shutdown completed.
+2023-11-14 18:58:34 Starting ManagerApplication using Java 17.0.9 with PID 56685 (/Users/linsz/Documents/linsux/backEnd/linsux/linsux/linsux-manager/target/classes started by linsz in /Users/linsz/Documents/linsux/backEnd/linsux/linsux)
+2023-11-14 18:58:34 The following 1 profile is active: "dev"
+2023-11-14 18:58:34 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-11-14 18:58:34 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-11-14 18:58:34 Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2023-11-14 18:58:35 Tomcat initialized with port(s): 8889 (http)
+2023-11-14 18:58:35 Initializing ProtocolHandler ["http-nio-8889"]
+2023-11-14 18:58:35 Starting service [Tomcat]
+2023-11-14 18:58:35 Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-11-14 18:58:35 Initializing Spring embedded WebApplicationContext
+2023-11-14 18:58:35 Root WebApplicationContext: initialization completed in 677 ms
+2023-11-14 18:58:36 Starting ProtocolHandler ["http-nio-8889"]
+2023-11-14 18:58:36 Tomcat started on port(s): 8889 (http) with context path ''
+2023-11-14 18:58:36 Started ManagerApplication in 1.66 seconds (process running for 1.881)
+2023-11-14 18:58:40 Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-14 18:58:40 Initializing Servlet 'dispatcherServlet'
+2023-11-14 18:58:40 Completed initialization in 1 ms
+2023-11-14 19:00:29 Starting ManagerApplication using Java 17.0.9 with PID 57170 (/Users/linsz/Documents/linsux/backEnd/linsux/linsux/linsux-manager/target/classes started by linsz in /Users/linsz/Documents/linsux/backEnd/linsux/linsux)
+2023-11-14 19:00:29 The following 1 profile is active: "dev"
+2023-11-14 19:00:30 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-11-14 19:00:30 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-11-14 19:00:30 Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2023-11-14 19:00:30 Tomcat initialized with port(s): 8889 (http)
+2023-11-14 19:00:30 Initializing ProtocolHandler ["http-nio-8889"]
+2023-11-14 19:00:30 Starting service [Tomcat]
+2023-11-14 19:00:30 Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-11-14 19:00:30 Initializing Spring embedded WebApplicationContext
+2023-11-14 19:00:30 Root WebApplicationContext: initialization completed in 670 ms
+2023-11-14 19:00:31 Starting ProtocolHandler ["http-nio-8889"]
+2023-11-14 19:00:31 Tomcat started on port(s): 8889 (http) with context path ''
+2023-11-14 19:00:31 Started ManagerApplication in 1.691 seconds (process running for 1.919)
+2023-11-14 19:00:35 Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-14 19:00:35 Initializing Servlet 'dispatcherServlet'
+2023-11-14 19:00:35 Completed initialization in 2 ms
+2023-11-14 19:03:22 Starting ManagerApplication using Java 17.0.9 with PID 57877 (/Users/linsz/Documents/linsux/backEnd/linsux/linsux/linsux-manager/target/classes started by linsz in /Users/linsz/Documents/linsux/backEnd/linsux/linsux)
+2023-11-14 19:03:22 The following 1 profile is active: "dev"
+2023-11-14 19:03:22 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-11-14 19:03:22 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-11-14 19:03:22 Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2023-11-14 19:03:23 Tomcat initialized with port(s): 8889 (http)
+2023-11-14 19:03:23 Initializing ProtocolHandler ["http-nio-8889"]
+2023-11-14 19:03:23 Starting service [Tomcat]
+2023-11-14 19:03:23 Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-11-14 19:03:23 Initializing Spring embedded WebApplicationContext
+2023-11-14 19:03:23 Root WebApplicationContext: initialization completed in 701 ms
+2023-11-14 19:03:23 Starting ProtocolHandler ["http-nio-8889"]
+2023-11-14 19:03:23 Tomcat started on port(s): 8889 (http) with context path ''
+2023-11-14 19:03:23 Started ManagerApplication in 1.722 seconds (process running for 1.943)
+2023-11-14 19:03:31 Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-14 19:03:31 Initializing Servlet 'dispatcherServlet'
+2023-11-14 19:03:31 Completed initialization in 1 ms
+2023-11-14 19:04:33 Starting ManagerApplication using Java 17.0.9 with PID 58174 (/Users/linsz/Documents/linsux/backEnd/linsux/linsux/linsux-manager/target/classes started by linsz in /Users/linsz/Documents/linsux/backEnd/linsux/linsux)
+2023-11-14 19:04:33 The following 1 profile is active: "dev"
+2023-11-14 19:04:34 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-11-14 19:04:34 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-11-14 19:04:34 Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2023-11-14 19:04:34 Tomcat initialized with port(s): 8889 (http)
+2023-11-14 19:04:34 Initializing ProtocolHandler ["http-nio-8889"]
+2023-11-14 19:04:34 Starting service [Tomcat]
+2023-11-14 19:04:34 Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-11-14 19:04:34 Initializing Spring embedded WebApplicationContext
+2023-11-14 19:04:34 Root WebApplicationContext: initialization completed in 699 ms
+2023-11-14 19:04:35 Starting ProtocolHandler ["http-nio-8889"]
+2023-11-14 19:04:35 Tomcat started on port(s): 8889 (http) with context path ''
+2023-11-14 19:04:35 Started ManagerApplication in 1.759 seconds (process running for 1.989)
+2023-11-14 19:04:37 Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-14 19:04:37 Initializing Servlet 'dispatcherServlet'
+2023-11-14 19:04:37 Completed initialization in 1 ms
+2023-11-14 19:05:14 Init duration for springdoc-openapi is: 150 ms
+2023-11-14 19:08:42 Unable to make field private final java.lang.Class java.lang.invoke.SerializedLambda.capturingClass accessible: module java.base does not "opens java.lang.invoke" to unnamed module @1573f9fc
+2023-11-14 19:08:42 HikariPool-1 - Starting...
+2023-11-14 19:08:42 HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@8552265
+2023-11-14 19:08:42 HikariPool-1 - Start completed.
+2023-11-14 19:11:41 HikariPool-1 - Shutdown initiated...
+2023-11-14 19:11:41 HikariPool-1 - Shutdown completed.
+2023-11-14 19:11:43 Starting ManagerApplication using Java 17.0.9 with PID 59926 (/Users/linsz/Documents/linsux/backEnd/linsux/linsux/linsux-manager/target/classes started by linsz in /Users/linsz/Documents/linsux/backEnd/linsux/linsux)
+2023-11-14 19:11:43 The following 1 profile is active: "dev"
+2023-11-14 19:11:43 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-11-14 19:11:43 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-11-14 19:11:43 Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2023-11-14 19:11:44 Tomcat initialized with port(s): 8889 (http)
+2023-11-14 19:11:44 Initializing ProtocolHandler ["http-nio-8889"]
+2023-11-14 19:11:44 Starting service [Tomcat]
+2023-11-14 19:11:44 Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-11-14 19:11:44 Initializing Spring embedded WebApplicationContext
+2023-11-14 19:11:44 Root WebApplicationContext: initialization completed in 676 ms
+2023-11-14 19:11:45 Starting ProtocolHandler ["http-nio-8889"]
+2023-11-14 19:11:45 Tomcat started on port(s): 8889 (http) with context path ''
+2023-11-14 19:11:45 Started ManagerApplication in 1.73 seconds (process running for 1.944)
+2023-11-14 19:11:51 Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-14 19:11:51 Initializing Servlet 'dispatcherServlet'
+2023-11-14 19:11:51 Completed initialization in 1 ms
+2023-11-14 19:11:51 Unable to make field private final java.lang.Class java.lang.invoke.SerializedLambda.capturingClass accessible: module java.base does not "opens java.lang.invoke" to unnamed module @1573f9fc
+2023-11-14 19:11:51 HikariPool-1 - Starting...
+2023-11-14 19:11:51 HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5246aaca
+2023-11-14 19:11:51 HikariPool-1 - Start completed.
+2023-11-14 19:13:07 HikariPool-1 - Shutdown initiated...
+2023-11-14 19:13:07 HikariPool-1 - Shutdown completed.
+2023-11-14 19:13:08 Starting ManagerApplication using Java 17.0.9 with PID 60282 (/Users/linsz/Documents/linsux/backEnd/linsux/linsux/linsux-manager/target/classes started by linsz in /Users/linsz/Documents/linsux/backEnd/linsux/linsux)
+2023-11-14 19:13:08 The following 1 profile is active: "dev"
+2023-11-14 19:13:09 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-11-14 19:13:09 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-11-14 19:13:09 Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2023-11-14 19:13:09 Tomcat initialized with port(s): 8889 (http)
+2023-11-14 19:13:09 Initializing ProtocolHandler ["http-nio-8889"]
+2023-11-14 19:13:09 Starting service [Tomcat]
+2023-11-14 19:13:09 Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-11-14 19:13:09 Initializing Spring embedded WebApplicationContext
+2023-11-14 19:13:09 Root WebApplicationContext: initialization completed in 698 ms
+2023-11-14 19:13:10 Starting ProtocolHandler ["http-nio-8889"]
+2023-11-14 19:13:10 Tomcat started on port(s): 8889 (http) with context path ''
+2023-11-14 19:13:10 Started ManagerApplication in 1.796 seconds (process running for 2.019)
+2023-11-14 19:13:11 Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-14 19:13:11 Initializing Servlet 'dispatcherServlet'
+2023-11-14 19:13:11 Completed initialization in 1 ms
+2023-11-14 19:13:11 Init duration for springdoc-openapi is: 123 ms
+2023-11-14 19:13:26 Unable to make field private final java.lang.Class java.lang.invoke.SerializedLambda.capturingClass accessible: module java.base does not "opens java.lang.invoke" to unnamed module @1573f9fc
+2023-11-14 19:13:26 HikariPool-1 - Starting...
+2023-11-14 19:13:26 HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2ca67645
+2023-11-14 19:13:26 HikariPool-1 - Start completed.
+2023-11-14 19:31:28 HikariPool-1 - Shutdown initiated...
+2023-11-14 19:31:28 HikariPool-1 - Shutdown completed.
+2023-11-14 19:31:30 Starting ManagerApplication using Java 17.0.9 with PID 65005 (/Users/linsz/Documents/linsux/backEnd/linsux/linsux/linsux-manager/target/classes started by linsz in /Users/linsz/Documents/linsux/backEnd/linsux/linsux)
+2023-11-14 19:31:30 The following 1 profile is active: "dev"
+2023-11-14 19:31:31 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-11-14 19:31:31 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-11-14 19:31:31 Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2023-11-14 19:31:31 Tomcat initialized with port(s): 8889 (http)
+2023-11-14 19:31:31 Initializing ProtocolHandler ["http-nio-8889"]
+2023-11-14 19:31:31 Starting service [Tomcat]
+2023-11-14 19:31:31 Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-11-14 19:31:31 Initializing Spring embedded WebApplicationContext
+2023-11-14 19:31:31 Root WebApplicationContext: initialization completed in 731 ms
+2023-11-14 19:31:32 Starting ProtocolHandler ["http-nio-8889"]
+2023-11-14 19:31:32 Tomcat started on port(s): 8889 (http) with context path ''
+2023-11-14 19:31:32 Started ManagerApplication in 1.787 seconds (process running for 2.029)
+2023-11-14 19:31:50 Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-14 19:31:50 Initializing Servlet 'dispatcherServlet'
+2023-11-14 19:31:50 Completed initialization in 1 ms
+2023-11-14 19:32:00 Unable to make field private final java.lang.Class java.lang.invoke.SerializedLambda.capturingClass accessible: module java.base does not "opens java.lang.invoke" to unnamed module @1573f9fc
+2023-11-14 19:32:00 HikariPool-1 - Starting...
+2023-11-14 19:32:00 HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@10608ef4
+2023-11-14 19:32:00 HikariPool-1 - Start completed.
+2023-11-14 19:48:48 Init duration for springdoc-openapi is: 131 ms
+2023-11-14 20:22:19 HikariPool-1 - Shutdown initiated...
+2023-11-14 20:22:19 HikariPool-1 - Shutdown completed.
+2023-11-14 20:22:21 Starting ManagerApplication using Java 17.0.9 with PID 78119 (/Users/linsz/Documents/linsux/backEnd/linsux/linsux/linsux-manager/target/classes started by linsz in /Users/linsz/Documents/linsux/backEnd/linsux/linsux)
+2023-11-14 20:22:21 The following 1 profile is active: "dev"
+2023-11-14 20:22:22 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-11-14 20:22:22 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-11-14 20:22:22 Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2023-11-14 20:22:22 Tomcat initialized with port(s): 8889 (http)
+2023-11-14 20:22:22 Initializing ProtocolHandler ["http-nio-8889"]
+2023-11-14 20:22:22 Starting service [Tomcat]
+2023-11-14 20:22:22 Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-11-14 20:22:22 Initializing Spring embedded WebApplicationContext
+2023-11-14 20:22:22 Root WebApplicationContext: initialization completed in 715 ms
+2023-11-14 20:22:23 Starting ProtocolHandler ["http-nio-8889"]
+2023-11-14 20:22:23 Tomcat started on port(s): 8889 (http) with context path ''
+2023-11-14 20:22:23 Started ManagerApplication in 1.757 seconds (process running for 1.982)
+2023-11-14 20:22:36 Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-14 20:22:36 Initializing Servlet 'dispatcherServlet'
+2023-11-14 20:22:36 Completed initialization in 2 ms
+2023-11-14 20:22:57 Unable to make field private final java.lang.Class java.lang.invoke.SerializedLambda.capturingClass accessible: module java.base does not "opens java.lang.invoke" to unnamed module @1573f9fc
+2023-11-14 20:22:57 HikariPool-1 - Starting...
+2023-11-14 20:22:57 HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@537f7f64
+2023-11-14 20:22:57 HikariPool-1 - Start completed.
+2023-11-14 20:41:12 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m15s179ms).
+2023-11-14 21:49:43 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h8m30s226ms).
+2023-11-14 21:55:56 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s884ms).
+2023-11-14 23:01:52 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h5m55s425ms).
+2023-11-15 00:24:08 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h22m15s917ms).
+2023-11-15 02:04:48 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h40m40s129ms).
+2023-11-15 03:30:59 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h26m10s585ms).
+2023-11-15 04:49:10 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h18m11s602ms).
+2023-11-15 06:08:48 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h19m37s886ms).
+2023-11-15 07:32:39 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h23m50s820ms).
+2023-11-15 09:12:16 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h39m37s174ms).
+2023-11-15 10:38:19 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h26m2s577ms).
+2023-11-15 12:17:39 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h39m20s32ms).
+2023-11-15 13:15:42 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=58m3s219ms).
+2023-11-15 13:25:15 Init duration for springdoc-openapi is: 136 ms
+2023-11-15 13:25:27 HikariPool-1 - Shutdown initiated...
+2023-11-15 13:25:27 HikariPool-1 - Shutdown completed.
+2023-11-15 13:25:29 Starting ManagerApplication using Java 17.0.9 with PID 86924 (/Users/linsz/Documents/linsux/backEnd/linsux/linsux/linsux-manager/target/classes started by linsz in /Users/linsz/Documents/linsux/backEnd/linsux/linsux)
+2023-11-15 13:25:29 The following 1 profile is active: "dev"
+2023-11-15 13:25:29 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-11-15 13:25:29 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-11-15 13:25:29 Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2023-11-15 13:25:30 Tomcat initialized with port(s): 8889 (http)
+2023-11-15 13:25:30 Initializing ProtocolHandler ["http-nio-8889"]
+2023-11-15 13:25:30 Starting service [Tomcat]
+2023-11-15 13:25:30 Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-11-15 13:25:30 Initializing Spring embedded WebApplicationContext
+2023-11-15 13:25:30 Root WebApplicationContext: initialization completed in 680 ms
+2023-11-15 13:25:31 Starting ProtocolHandler ["http-nio-8889"]
+2023-11-15 13:25:31 Tomcat started on port(s): 8889 (http) with context path ''
+2023-11-15 13:25:31 Started ManagerApplication in 1.669 seconds (process running for 1.898)
+2023-11-15 13:25:36 Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-15 13:25:36 Initializing Servlet 'dispatcherServlet'
+2023-11-15 13:25:36 Completed initialization in 0 ms
+2023-11-15 13:25:36 Init duration for springdoc-openapi is: 128 ms
+2023-11-15 13:28:01 Starting ManagerApplication using Java 17.0.9 with PID 87555 (/Users/linsz/Documents/linsux/backEnd/linsux/linsux/linsux-manager/target/classes started by linsz in /Users/linsz/Documents/linsux/backEnd/linsux/linsux)
+2023-11-15 13:28:01 The following 1 profile is active: "dev"
+2023-11-15 13:28:02 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-11-15 13:28:02 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-11-15 13:28:02 Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2023-11-15 13:28:02 Tomcat initialized with port(s): 8889 (http)
+2023-11-15 13:28:02 Initializing ProtocolHandler ["http-nio-8889"]
+2023-11-15 13:28:02 Starting service [Tomcat]
+2023-11-15 13:28:02 Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-11-15 13:28:02 Initializing Spring embedded WebApplicationContext
+2023-11-15 13:28:02 Root WebApplicationContext: initialization completed in 719 ms
+2023-11-15 13:28:03 Starting ProtocolHandler ["http-nio-8889"]
+2023-11-15 13:28:03 Tomcat started on port(s): 8889 (http) with context path ''
+2023-11-15 13:28:03 Started ManagerApplication in 1.75 seconds (process running for 1.974)
+2023-11-15 13:28:14 Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-15 13:28:14 Initializing Servlet 'dispatcherServlet'
+2023-11-15 13:28:14 Completed initialization in 0 ms
+2023-11-15 13:28:14 Init duration for springdoc-openapi is: 147 ms
+2023-11-15 13:29:27 HikariPool-1 - Starting...
+2023-11-15 13:29:27 HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1cb1f623
+2023-11-15 13:29:27 HikariPool-1 - Start completed.
+2023-11-15 13:33:47 Unable to make field private final java.lang.Class java.lang.invoke.SerializedLambda.capturingClass accessible: module java.base does not "opens java.lang.invoke" to unnamed module @1573f9fc
+2023-11-15 13:45:41 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s63ms).
+2023-11-15 14:05:45 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=20m4s540ms).
+2023-11-15 15:27:21 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h21m35s585ms).
+2023-11-15 15:27:51 HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s859ms), soft-evicting connections from pool.
+2023-11-15 15:49:49 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=21m28s175ms).
+2023-11-15 16:13:33 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=23m43s886ms).
+2023-11-15 16:34:57 HikariPool-1 - Shutdown initiated...
+2023-11-15 16:34:57 HikariPool-1 - Shutdown completed.
+2023-11-15 16:34:59 Starting ManagerApplication using Java 17.0.9 with PID 97040 (/Users/linsz/Documents/linsux/backEnd/linsux/linsux/linsux-manager/target/classes started by linsz in /Users/linsz/Documents/linsux/backEnd/linsux/linsux)
+2023-11-15 16:34:59 The following 1 profile is active: "dev"
+2023-11-15 16:34:59 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-11-15 16:34:59 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-11-15 16:34:59 Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2023-11-15 16:35:00 Tomcat initialized with port(s): 8889 (http)
+2023-11-15 16:35:00 Initializing ProtocolHandler ["http-nio-8889"]
+2023-11-15 16:35:00 Starting service [Tomcat]
+2023-11-15 16:35:00 Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-11-15 16:35:00 Initializing Spring embedded WebApplicationContext
+2023-11-15 16:35:00 Root WebApplicationContext: initialization completed in 697 ms
+2023-11-15 16:35:00 Starting ProtocolHandler ["http-nio-8889"]
+2023-11-15 16:35:01 Tomcat started on port(s): 8889 (http) with context path ''
+2023-11-15 16:35:01 Started ManagerApplication in 1.727 seconds (process running for 1.956)
+2023-11-15 16:35:12 Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-15 16:35:12 Initializing Servlet 'dispatcherServlet'
+2023-11-15 16:35:12 Completed initialization in 1 ms
+2023-11-15 16:35:13 Init duration for springdoc-openapi is: 142 ms
+2023-11-15 16:36:30 HikariPool-1 - Starting...
+2023-11-15 16:36:30 HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3a1607bc
+2023-11-15 16:36:30 HikariPool-1 - Start completed.
+2023-11-15 16:37:49 Unable to make field private final java.lang.Class java.lang.invoke.SerializedLambda.capturingClass accessible: module java.base does not "opens java.lang.invoke" to unnamed module @1573f9fc
+2023-11-15 16:38:26 HikariPool-1 - Shutdown initiated...
+2023-11-15 16:38:26 HikariPool-1 - Shutdown completed.
+2023-11-15 16:38:28 Starting ManagerApplication using Java 17.0.9 with PID 97911 (/Users/linsz/Documents/linsux/backEnd/linsux/linsux/linsux-manager/target/classes started by linsz in /Users/linsz/Documents/linsux/backEnd/linsux/linsux)
+2023-11-15 16:38:28 The following 1 profile is active: "dev"
+2023-11-15 16:38:28 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-11-15 16:38:28 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-11-15 16:38:28 Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2023-11-15 16:38:29 Tomcat initialized with port(s): 8889 (http)
+2023-11-15 16:38:29 Initializing ProtocolHandler ["http-nio-8889"]
+2023-11-15 16:38:29 Starting service [Tomcat]
+2023-11-15 16:38:29 Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-11-15 16:38:29 Initializing Spring embedded WebApplicationContext
+2023-11-15 16:38:29 Root WebApplicationContext: initialization completed in 678 ms
+2023-11-15 16:38:29 Starting ProtocolHandler ["http-nio-8889"]
+2023-11-15 16:38:29 Tomcat started on port(s): 8889 (http) with context path ''
+2023-11-15 16:38:29 Started ManagerApplication in 1.738 seconds (process running for 1.991)
+2023-11-15 16:38:58 Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-15 16:38:58 Initializing Servlet 'dispatcherServlet'
+2023-11-15 16:38:58 Completed initialization in 1 ms
+2023-11-15 16:38:58 Unable to make field private final java.lang.Class java.lang.invoke.SerializedLambda.capturingClass accessible: module java.base does not "opens java.lang.invoke" to unnamed module @1573f9fc
+2023-11-15 16:38:58 HikariPool-1 - Starting...
+2023-11-15 16:38:58 HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6639e92a
+2023-11-15 16:38:58 HikariPool-1 - Start completed.
+2023-11-15 16:44:43 HikariPool-1 - Shutdown initiated...
+2023-11-15 16:44:43 HikariPool-1 - Shutdown completed.
+2023-11-15 16:44:45 Starting ManagerApplication using Java 17.0.9 with PID 99484 (/Users/linsz/Documents/linsux/backEnd/linsux/linsux/linsux-manager/target/classes started by linsz in /Users/linsz/Documents/linsux/backEnd/linsux/linsux)
+2023-11-15 16:44:45 The following 1 profile is active: "dev"
+2023-11-15 16:44:46 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-11-15 16:44:46 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-11-15 16:44:46 Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2023-11-15 16:44:46 Tomcat initialized with port(s): 8889 (http)
+2023-11-15 16:44:46 Initializing ProtocolHandler ["http-nio-8889"]
+2023-11-15 16:44:46 Starting service [Tomcat]
+2023-11-15 16:44:46 Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-11-15 16:44:46 Initializing Spring embedded WebApplicationContext
+2023-11-15 16:44:46 Root WebApplicationContext: initialization completed in 687 ms
+2023-11-15 16:44:47 Starting ProtocolHandler ["http-nio-8889"]
+2023-11-15 16:44:47 Tomcat started on port(s): 8889 (http) with context path ''
+2023-11-15 16:44:47 Started ManagerApplication in 1.715 seconds (process running for 1.934)
+2023-11-15 16:45:03 Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-15 16:45:03 Initializing Servlet 'dispatcherServlet'
+2023-11-15 16:45:03 Completed initialization in 1 ms
+2023-11-15 16:45:04 Init duration for springdoc-openapi is: 134 ms
+2023-11-15 16:46:26 HikariPool-1 - Starting...
+2023-11-15 16:46:26 HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2f309205
+2023-11-15 16:46:26 HikariPool-1 - Start completed.
+2023-11-15 16:55:14 HikariPool-1 - Shutdown initiated...
+2023-11-15 16:55:14 HikariPool-1 - Shutdown completed.
+2023-11-15 16:55:17 Starting ManagerApplication using Java 17.0.9 with PID 2381 (/Users/linsz/Documents/linsux/backEnd/linsux/linsux/linsux-manager/target/classes started by linsz in /Users/linsz/Documents/linsux/backEnd/linsux/linsux)
+2023-11-15 16:55:17 The following 1 profile is active: "dev"
+2023-11-15 16:55:17 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-11-15 16:55:17 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-11-15 16:55:17 Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2023-11-15 16:55:17 Tomcat initialized with port(s): 8889 (http)
+2023-11-15 16:55:17 Initializing ProtocolHandler ["http-nio-8889"]
+2023-11-15 16:55:17 Starting service [Tomcat]
+2023-11-15 16:55:17 Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-11-15 16:55:17 Initializing Spring embedded WebApplicationContext
+2023-11-15 16:55:17 Root WebApplicationContext: initialization completed in 708 ms
+2023-11-15 16:55:18 Starting ProtocolHandler ["http-nio-8889"]
+2023-11-15 16:55:18 Tomcat started on port(s): 8889 (http) with context path ''
+2023-11-15 16:55:18 Started ManagerApplication in 1.765 seconds (process running for 1.993)
+2023-11-15 16:55:24 Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-15 16:55:24 Initializing Servlet 'dispatcherServlet'
+2023-11-15 16:55:24 Completed initialization in 2 ms
+2023-11-15 16:55:24 Init duration for springdoc-openapi is: 138 ms
+2023-11-15 16:55:34 HikariPool-1 - Starting...
+2023-11-15 16:55:34 HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@12bb54a8
+2023-11-15 16:55:34 HikariPool-1 - Start completed.
+2023-11-15 16:57:44 Unable to make field private final java.lang.Class java.lang.invoke.SerializedLambda.capturingClass accessible: module java.base does not "opens java.lang.invoke" to unnamed module @1573f9fc
+2023-11-15 16:58:35 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m699ms).
+2023-11-15 17:04:18 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s8ms).
+2023-11-15 17:10:31 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s989ms).
+2023-11-15 17:15:44 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s28ms).
+2023-11-15 17:21:57 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s964ms).
+2023-11-15 17:27:58 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m910ms).
+2023-11-15 17:33:11 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s147ms).
+2023-11-15 17:38:54 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s943ms).
+2023-11-15 17:44:07 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s22ms).
+2023-11-15 17:49:50 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s972ms).
+2023-11-15 17:55:33 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s10ms).
+2023-11-15 18:02:16 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s858ms).
+2023-11-15 18:04:40 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m23s717ms).
+2023-11-15 20:23:50 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m39s197ms).
+2023-11-15 20:29:03 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s44ms).
+2023-11-15 20:32:33 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m59s632ms).
+2023-11-15 20:37:46 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s35ms).
+2023-11-15 20:43:29 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s16ms).
+2023-11-15 20:49:12 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s101ms).
+2023-11-15 20:54:55 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s14ms).
+2023-11-15 21:00:38 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s974ms).
+2023-11-15 21:06:21 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s28ms).
+2023-11-15 21:11:34 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s93ms).
+2023-11-15 21:17:17 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s16ms).
+2023-11-15 21:23:00 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s62ms).
+2023-11-15 21:28:13 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s976ms).
+2023-11-15 21:33:56 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s37ms).
+2023-11-15 21:39:39 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s907ms).
+2023-11-15 21:44:52 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s97ms).
+2023-11-15 21:50:35 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s974ms).
+2023-11-15 21:56:18 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s986ms).
+2023-11-15 22:02:01 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s989ms).
+2023-11-15 22:05:16 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m15s212ms).
+2023-11-15 22:11:00 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s85ms).
+2023-11-15 22:16:43 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s926ms).
+2023-11-15 22:21:56 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s22ms).
+2023-11-15 22:27:39 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s212ms).
+2023-11-15 22:33:22 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s962ms).
+2023-11-15 22:38:35 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s27ms).
+2023-11-15 22:44:18 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s916ms).
+2023-11-15 22:50:01 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s66ms).
+2023-11-15 22:55:44 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s987ms).
+2023-11-15 23:01:27 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s185ms).
+2023-11-15 23:07:10 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s19ms).
+2023-11-15 23:11:10 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m296ms).
+2023-11-15 23:16:53 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s966ms).
+2023-11-15 23:22:36 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s84ms).
+2023-11-15 23:27:49 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s5ms).
+2023-11-15 23:33:33 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s124ms).
+2023-11-15 23:39:16 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s54ms).
+2023-11-15 23:44:29 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s233ms).
+2023-11-15 23:50:12 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s).
+2023-11-15 23:55:55 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s974ms).
+2023-11-16 00:01:38 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s25ms).
+2023-11-16 00:07:21 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s981ms).
+2023-11-16 00:13:04 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s105ms).
+2023-11-16 00:18:17 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s34ms).
+2023-11-16 00:24:00 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s931ms).
+2023-11-16 00:29:43 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s44ms).
+2023-11-16 00:34:56 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s31ms).
+2023-11-16 00:40:39 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s42ms).
+2023-11-16 00:46:22 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s948ms).
+2023-11-16 00:51:35 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s8ms).
+2023-11-16 00:57:18 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s68ms).
+2023-11-16 00:58:51 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m2s641ms).
+2023-11-16 01:04:34 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s5ms).
+2023-11-16 01:09:47 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s939ms).
+2023-11-16 01:15:30 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s1ms).
+2023-11-16 01:21:13 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s46ms).
+2023-11-16 01:26:56 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s51ms).
+2023-11-16 01:32:39 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s957ms).
+2023-11-16 01:37:52 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s1ms).
+2023-11-16 01:43:35 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s43ms).
+2023-11-16 01:49:18 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s952ms).
+2023-11-16 01:54:31 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s65ms).
+2023-11-16 02:00:14 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s42ms).
+2023-11-16 02:05:57 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s959ms).
+2023-11-16 02:11:40 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s993ms).
+2023-11-16 02:16:53 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s944ms).
+2023-11-16 02:22:36 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s997ms).
+2023-11-16 02:28:19 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s902ms).
+2023-11-16 02:33:32 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s33ms).
+2023-11-16 02:39:15 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s903ms).
+2023-11-16 02:44:58 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s65ms).
+2023-11-16 02:50:11 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s8ms).
+2023-11-16 02:55:54 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s925ms).
+2023-11-16 03:01:37 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s964ms).
+2023-11-16 03:07:20 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s954ms).
+2023-11-16 03:12:33 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s980ms).
+2023-11-16 03:18:16 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s44ms).
+2023-11-16 03:23:59 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s994ms).
+2023-11-16 03:29:12 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s997ms).
+2023-11-16 03:34:55 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s938ms).
+2023-11-16 03:40:38 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s5ms).
+2023-11-16 03:45:51 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s903ms).
+2023-11-16 03:51:34 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s8ms).
+2023-11-16 03:57:17 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s911ms).
+2023-11-16 04:03:00 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s33ms).
+2023-11-16 04:08:13 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s41ms).
+2023-11-16 04:13:56 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s995ms).
+2023-11-16 04:19:39 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s989ms).
+2023-11-16 04:25:57 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s66ms).
+2023-11-16 04:31:40 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s4ms).
+2023-11-16 04:36:53 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s951ms).
+2023-11-16 04:42:36 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s982ms).
+2023-11-16 04:48:19 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s995ms).
+2023-11-16 04:53:32 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s999ms).
+2023-11-16 04:59:15 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s54ms).
+2023-11-16 05:04:58 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s922ms).
+2023-11-16 05:10:41 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s975ms).
+2023-11-16 05:15:54 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s932ms).
+2023-11-16 05:22:07 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s45ms).
+2023-11-16 05:41:50 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s6ms).
+2023-11-16 05:47:33 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s934ms).
+2023-11-16 05:52:46 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s926ms).
+2023-11-16 05:58:29 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s932ms).
+2023-11-16 06:05:42 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s26ms).
+2023-11-16 06:11:25 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s39ms).
+2023-11-16 06:17:08 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s26ms).
+2023-11-16 06:22:51 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s1ms).
+2023-11-16 06:28:04 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s906ms).
+2023-11-16 06:33:47 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s979ms).
+2023-11-16 06:39:30 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s43ms).
+2023-11-16 06:44:43 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s976ms).
+2023-11-16 06:50:26 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s79ms).
+2023-11-16 06:56:09 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s7ms).
+2023-11-16 07:01:52 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s944ms).
+2023-11-16 07:07:35 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s40ms).
+2023-11-16 07:12:48 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s38ms).
+2023-11-16 07:18:31 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s20ms).
+2023-11-16 07:24:14 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s931ms).
+2023-11-16 07:29:57 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s948ms).
+2023-11-16 07:35:10 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s19ms).
+2023-11-16 07:40:53 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s994ms).
+2023-11-16 07:46:36 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s875ms).
+2023-11-16 07:51:49 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s11ms).
+2023-11-16 07:58:02 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s4ms).
+2023-11-16 08:03:15 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s19ms).
+2023-11-16 08:08:58 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s981ms).
+2023-11-16 08:14:41 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s12ms).
+2023-11-16 08:19:54 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s49ms).
+2023-11-16 08:25:37 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s45ms).
+2023-11-16 08:31:20 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s40ms).
+2023-11-16 08:36:33 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s44ms).
+2023-11-16 08:42:16 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s977ms).
+2023-11-16 08:47:59 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s65ms).
+2023-11-16 08:53:12 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s57ms).
+2023-11-16 08:58:55 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s44ms).
+2023-11-16 09:04:38 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s43ms).
+2023-11-16 09:10:21 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s50ms).
+2023-11-16 09:15:34 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s913ms).
+2023-11-16 09:21:47 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s24ms).
+2023-11-16 09:27:00 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s18ms).
+2023-11-16 09:32:43 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s37ms).
+2023-11-16 09:38:26 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s3ms).
+2023-11-16 09:43:39 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s940ms).
+2023-11-16 09:49:22 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s984ms).
+2023-11-16 09:55:05 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s953ms).
+2023-11-16 10:00:48 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s938ms).
+2023-11-16 10:06:31 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s84ms).
+2023-11-16 10:11:44 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s20ms).
+2023-11-16 10:17:27 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s44ms).
+2023-11-16 10:23:10 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s906ms).
+2023-11-16 10:28:23 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s924ms).
+2023-11-16 10:34:06 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s134ms).
+2023-11-16 10:39:49 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s33ms).
+2023-11-16 10:45:02 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s73ms).
+2023-11-16 10:50:45 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s36ms).
+2023-11-16 10:56:28 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s995ms).
+2023-11-16 11:02:11 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s996ms).
+2023-11-16 11:07:24 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s4ms).
+2023-11-16 11:13:07 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s994ms).
+2023-11-16 11:18:50 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s5ms).
+2023-11-16 11:24:03 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s994ms).
+2023-11-16 11:29:46 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s992ms).
+2023-11-16 11:31:37 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m20s667ms).
+2023-11-16 11:36:50 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s55ms).
+2023-11-16 11:42:33 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s932ms).
+2023-11-16 11:45:44 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m40s848ms).
+2023-11-16 12:17:54 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m37s291ms).
+2023-11-16 12:44:19 HikariPool-1 - Shutdown initiated...
+2023-11-16 12:44:19 HikariPool-1 - Shutdown completed.
+2023-11-16 12:44:22 Starting ManagerApplication using Java 17.0.9 with PID 1854 (/Users/linsz/Documents/linsux/backEnd/linsux/linsux/linsux-manager/target/classes started by linsz in /Users/linsz/Documents/linsux/backEnd/linsux/linsux)
+2023-11-16 12:44:22 The following 1 profile is active: "dev"
+2023-11-16 12:44:23 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-11-16 12:44:23 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-11-16 12:44:23 Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2023-11-16 12:44:23 Tomcat initialized with port(s): 8889 (http)
+2023-11-16 12:44:23 Initializing ProtocolHandler ["http-nio-8889"]
+2023-11-16 12:44:23 Starting service [Tomcat]
+2023-11-16 12:44:23 Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-11-16 12:44:23 Initializing Spring embedded WebApplicationContext
+2023-11-16 12:44:23 Root WebApplicationContext: initialization completed in 744 ms
+2023-11-16 12:44:24 Starting ProtocolHandler ["http-nio-8889"]
+2023-11-16 12:44:24 Tomcat started on port(s): 8889 (http) with context path ''
+2023-11-16 12:44:24 Started ManagerApplication in 1.839 seconds (process running for 2.09)
+2023-11-16 12:44:34 Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-16 12:44:34 Initializing Servlet 'dispatcherServlet'
+2023-11-16 12:44:34 Completed initialization in 0 ms
+2023-11-16 12:45:16 Unable to make field private final java.lang.Class java.lang.invoke.SerializedLambda.capturingClass accessible: module java.base does not "opens java.lang.invoke" to unnamed module @1573f9fc
+2023-11-16 12:45:16 HikariPool-1 - Starting...
+2023-11-16 12:45:16 HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@410e0b16
+2023-11-16 12:45:16 HikariPool-1 - Start completed.
+2023-11-16 12:48:51 HikariPool-1 - Shutdown initiated...
+2023-11-16 12:48:51 HikariPool-1 - Shutdown completed.
+2023-11-16 12:48:54 Starting ManagerApplication using Java 17.0.9 with PID 3056 (/Users/linsz/Documents/linsux/backEnd/linsux/linsux/linsux-manager/target/classes started by linsz in /Users/linsz/Documents/linsux/backEnd/linsux/linsux)
+2023-11-16 12:48:54 The following 1 profile is active: "dev"
+2023-11-16 12:48:54 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-11-16 12:48:54 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-11-16 12:48:54 Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2023-11-16 12:48:54 Tomcat initialized with port(s): 8889 (http)
+2023-11-16 12:48:54 Initializing ProtocolHandler ["http-nio-8889"]
+2023-11-16 12:48:54 Starting service [Tomcat]
+2023-11-16 12:48:54 Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-11-16 12:48:54 Initializing Spring embedded WebApplicationContext
+2023-11-16 12:48:54 Root WebApplicationContext: initialization completed in 679 ms
+2023-11-16 12:48:55 Starting ProtocolHandler ["http-nio-8889"]
+2023-11-16 12:48:55 Tomcat started on port(s): 8889 (http) with context path ''
+2023-11-16 12:48:55 Started ManagerApplication in 1.72 seconds (process running for 1.944)
+2023-11-16 12:49:02 Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-16 12:49:02 Initializing Servlet 'dispatcherServlet'
+2023-11-16 12:49:02 Completed initialization in 0 ms
+2023-11-16 12:53:42 Starting ManagerApplication using Java 17.0.9 with PID 4361 (/Users/linsz/Documents/linsux/backEnd/linsux/linsux/linsux-manager/target/classes started by linsz in /Users/linsz/Documents/linsux/backEnd/linsux/linsux)
+2023-11-16 12:53:42 The following 1 profile is active: "dev"
+2023-11-16 12:53:42 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-11-16 12:53:42 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-11-16 12:53:42 Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2023-11-16 12:53:43 Tomcat initialized with port(s): 8889 (http)
+2023-11-16 12:53:43 Initializing ProtocolHandler ["http-nio-8889"]
+2023-11-16 12:53:43 Starting service [Tomcat]
+2023-11-16 12:53:43 Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-11-16 12:53:43 Initializing Spring embedded WebApplicationContext
+2023-11-16 12:53:43 Root WebApplicationContext: initialization completed in 677 ms
+2023-11-16 12:53:43 Starting ProtocolHandler ["http-nio-8889"]
+2023-11-16 12:53:43 Tomcat started on port(s): 8889 (http) with context path ''
+2023-11-16 12:53:43 Started ManagerApplication in 1.701 seconds (process running for 1.935)
+2023-11-16 12:53:55 Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-16 12:53:55 Initializing Servlet 'dispatcherServlet'
+2023-11-16 12:53:55 Completed initialization in 1 ms
+2023-11-16 12:56:29 Starting ManagerApplication using Java 17.0.9 with PID 5112 (/Users/linsz/Documents/linsux/backEnd/linsux/linsux/linsux-manager/target/classes started by linsz in /Users/linsz/Documents/linsux/backEnd/linsux/linsux)
+2023-11-16 12:56:29 The following 1 profile is active: "dev"
+2023-11-16 12:56:30 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-11-16 12:56:30 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-11-16 12:56:30 Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2023-11-16 12:56:30 Tomcat initialized with port(s): 8889 (http)
+2023-11-16 12:56:30 Initializing ProtocolHandler ["http-nio-8889"]
+2023-11-16 12:56:30 Starting service [Tomcat]
+2023-11-16 12:56:30 Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-11-16 12:56:30 Initializing Spring embedded WebApplicationContext
+2023-11-16 12:56:30 Root WebApplicationContext: initialization completed in 697 ms
+2023-11-16 12:56:31 Starting ProtocolHandler ["http-nio-8889"]
+2023-11-16 12:56:31 Tomcat started on port(s): 8889 (http) with context path ''
+2023-11-16 12:56:31 Started ManagerApplication in 1.779 seconds (process running for 2.019)
+2023-11-16 12:56:38 Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-16 12:56:38 Initializing Servlet 'dispatcherServlet'
+2023-11-16 12:56:38 Completed initialization in 1 ms
+2023-11-16 12:57:27 Starting ManagerApplication using Java 17.0.9 with PID 5364 (/Users/linsz/Documents/linsux/backEnd/linsux/linsux/linsux-manager/target/classes started by linsz in /Users/linsz/Documents/linsux/backEnd/linsux/linsux)
+2023-11-16 12:57:27 The following 1 profile is active: "dev"
+2023-11-16 12:57:27 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-11-16 12:57:27 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-11-16 12:57:27 Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2023-11-16 12:57:27 Tomcat initialized with port(s): 8889 (http)
+2023-11-16 12:57:27 Initializing ProtocolHandler ["http-nio-8889"]
+2023-11-16 12:57:27 Starting service [Tomcat]
+2023-11-16 12:57:27 Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-11-16 12:57:27 Initializing Spring embedded WebApplicationContext
+2023-11-16 12:57:27 Root WebApplicationContext: initialization completed in 676 ms
+2023-11-16 12:57:28 Starting ProtocolHandler ["http-nio-8889"]
+2023-11-16 12:57:28 Tomcat started on port(s): 8889 (http) with context path ''
+2023-11-16 12:57:28 Started ManagerApplication in 1.694 seconds (process running for 1.916)
+2023-11-16 12:57:32 Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-16 12:57:32 Initializing Servlet 'dispatcherServlet'
+2023-11-16 12:57:32 Completed initialization in 1 ms
+2023-11-16 12:58:11 Init duration for springdoc-openapi is: 171 ms
+2023-11-16 13:00:41 Unable to make field private final java.lang.Class java.lang.invoke.SerializedLambda.capturingClass accessible: module java.base does not "opens java.lang.invoke" to unnamed module @1573f9fc
+2023-11-16 13:00:41 HikariPool-1 - Starting...
+2023-11-16 13:00:41 HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2c79214f
+2023-11-16 13:00:41 HikariPool-1 - Start completed.
+2023-11-16 13:15:41 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m27s535ms).
+2023-11-16 13:21:24 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s9ms).
+2023-11-16 13:27:07 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s77ms).
+2023-11-16 13:32:20 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s970ms).
+2023-11-16 13:34:39 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m49s309ms).
+2023-11-16 13:40:22 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s973ms).
+2023-11-16 13:45:35 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s36ms).
+2023-11-16 13:51:18 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s930ms).
+2023-11-16 13:57:01 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s979ms).
+2023-11-16 14:02:14 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s890ms).
+2023-11-16 14:07:57 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s973ms).
+2023-11-16 14:13:40 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s934ms).
+2023-11-16 14:18:53 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s996ms).
+2023-11-16 14:26:36 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s42ms).
+2023-11-16 14:32:19 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s44ms).
+2023-11-16 14:38:02 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s16ms).
+2023-11-16 14:43:15 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s45ms).
+2023-11-16 14:48:58 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s47ms).
+2023-11-16 14:54:41 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s987ms).
+2023-11-16 15:00:24 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s915ms).
+2023-11-16 15:05:37 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s956ms).
+2023-11-16 15:06:57 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=50s91ms).
+2023-11-16 15:12:41 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s91ms).
+2023-11-16 15:17:54 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s13ms).
+2023-11-16 15:23:37 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s132ms).
+2023-11-16 15:29:20 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s989ms).
+2023-11-16 15:34:33 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s62ms).
+2023-11-16 15:40:16 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s914ms).
+2023-11-16 15:45:59 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s3ms).
+2023-11-16 15:51:42 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s42ms).
+2023-11-16 15:57:25 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s999ms).
+2023-11-16 16:03:08 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s995ms).
+2023-11-16 16:08:21 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s999ms).
+2023-11-16 16:14:04 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s999ms).
+2023-11-16 16:19:47 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s19ms).
+2023-11-16 16:22:26 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m39s609ms).
+2023-11-16 16:27:10 HikariPool-1 - Shutdown initiated...
+2023-11-16 16:27:10 HikariPool-1 - Shutdown completed.
+2023-11-16 16:27:13 Starting ManagerApplication using Java 17.0.9 with PID 17999 (/Users/linsz/Documents/linsux/backEnd/linsux/linsux/linsux-manager/target/classes started by linsz in /Users/linsz/Documents/linsux/backEnd/linsux/linsux)
+2023-11-16 16:27:13 The following 1 profile is active: "dev"
+2023-11-16 16:27:13 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-11-16 16:27:13 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-11-16 16:27:13 Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2023-11-16 16:27:13 Tomcat initialized with port(s): 8889 (http)
+2023-11-16 16:27:13 Initializing ProtocolHandler ["http-nio-8889"]
+2023-11-16 16:27:13 Starting service [Tomcat]
+2023-11-16 16:27:13 Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-11-16 16:27:13 Initializing Spring embedded WebApplicationContext
+2023-11-16 16:27:13 Root WebApplicationContext: initialization completed in 718 ms
+2023-11-16 16:27:14 Starting ProtocolHandler ["http-nio-8889"]
+2023-11-16 16:27:14 Tomcat started on port(s): 8889 (http) with context path ''
+2023-11-16 16:27:14 Started ManagerApplication in 1.754 seconds (process running for 1.989)
+2023-11-16 16:27:21 Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-16 16:27:21 Initializing Servlet 'dispatcherServlet'
+2023-11-16 16:27:21 Completed initialization in 1 ms
+2023-11-16 16:27:50 Unable to make field private final java.lang.Class java.lang.invoke.SerializedLambda.capturingClass accessible: module java.base does not "opens java.lang.invoke" to unnamed module @1573f9fc
+2023-11-16 16:27:50 HikariPool-1 - Starting...
+2023-11-16 16:27:51 HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5ee3dc22
+2023-11-16 16:27:51 HikariPool-1 - Start completed.
+2023-11-16 16:29:18 Init duration for springdoc-openapi is: 147 ms
+2023-11-16 16:32:55 HikariPool-1 - Shutdown initiated...
+2023-11-16 16:32:55 HikariPool-1 - Shutdown completed.
+2023-11-16 16:32:57 Starting ManagerApplication using Java 17.0.9 with PID 19441 (/Users/linsz/Documents/linsux/backEnd/linsux/linsux/linsux-manager/target/classes started by linsz in /Users/linsz/Documents/linsux/backEnd/linsux/linsux)
+2023-11-16 16:32:57 The following 1 profile is active: "dev"
+2023-11-16 16:32:57 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-11-16 16:32:57 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-11-16 16:32:57 Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2023-11-16 16:32:57 Tomcat initialized with port(s): 8889 (http)
+2023-11-16 16:32:57 Initializing ProtocolHandler ["http-nio-8889"]
+2023-11-16 16:32:57 Starting service [Tomcat]
+2023-11-16 16:32:57 Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-11-16 16:32:57 Initializing Spring embedded WebApplicationContext
+2023-11-16 16:32:57 Root WebApplicationContext: initialization completed in 704 ms
+2023-11-16 16:32:58 Starting ProtocolHandler ["http-nio-8889"]
+2023-11-16 16:32:58 Tomcat started on port(s): 8889 (http) with context path ''
+2023-11-16 16:32:58 Started ManagerApplication in 1.816 seconds (process running for 2.04)
+2023-11-16 16:33:04 Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-16 16:33:04 Initializing Servlet 'dispatcherServlet'
+2023-11-16 16:33:04 Completed initialization in 1 ms
+2023-11-16 16:33:05 Init duration for springdoc-openapi is: 146 ms
+2023-11-16 16:33:24 Unable to make field private final java.lang.Class java.lang.invoke.SerializedLambda.capturingClass accessible: module java.base does not "opens java.lang.invoke" to unnamed module @1573f9fc
+2023-11-16 16:33:24 HikariPool-1 - Starting...
+2023-11-16 16:33:24 HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@e5009b7
+2023-11-16 16:33:24 HikariPool-1 - Start completed.
+2023-11-16 16:34:55 HikariPool-1 - Shutdown initiated...
+2023-11-16 16:34:55 HikariPool-1 - Shutdown completed.
+2023-11-16 16:34:57 Starting ManagerApplication using Java 17.0.9 with PID 19937 (/Users/linsz/Documents/linsux/backEnd/linsux/linsux/linsux-manager/target/classes started by linsz in /Users/linsz/Documents/linsux/backEnd/linsux/linsux)
+2023-11-16 16:34:57 The following 1 profile is active: "dev"
+2023-11-16 16:34:57 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-11-16 16:34:57 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-11-16 16:34:57 Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2023-11-16 16:34:58 Tomcat initialized with port(s): 8889 (http)
+2023-11-16 16:34:58 Initializing ProtocolHandler ["http-nio-8889"]
+2023-11-16 16:34:58 Starting service [Tomcat]
+2023-11-16 16:34:58 Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-11-16 16:34:58 Initializing Spring embedded WebApplicationContext
+2023-11-16 16:34:58 Root WebApplicationContext: initialization completed in 759 ms
+2023-11-16 16:34:59 Starting ProtocolHandler ["http-nio-8889"]
+2023-11-16 16:34:59 Tomcat started on port(s): 8889 (http) with context path ''
+2023-11-16 16:34:59 Started ManagerApplication in 1.9 seconds (process running for 2.616)
+2023-11-16 16:35:13 Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-16 16:35:13 Initializing Servlet 'dispatcherServlet'
+2023-11-16 16:35:13 Completed initialization in 1 ms
+2023-11-16 16:35:13 Init duration for springdoc-openapi is: 155 ms
+2023-11-16 16:35:24 Unable to make field private final java.lang.Class java.lang.invoke.SerializedLambda.capturingClass accessible: module java.base does not "opens java.lang.invoke" to unnamed module @2cd76f31
+2023-11-16 16:35:24 HikariPool-1 - Starting...
+2023-11-16 16:35:24 HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2a001140
+2023-11-16 16:35:24 HikariPool-1 - Start completed.
+2023-11-16 16:35:51 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=57s136ms).
+2023-11-16 16:40:17 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m54s506ms).
+2023-11-16 16:40:17 HikariPool-1 - Shutdown initiated...
+2023-11-16 16:40:17 HikariPool-1 - Shutdown completed.
+2023-11-16 16:40:19 Starting ManagerApplication using Java 17.0.9 with PID 21260 (/Users/linsz/Documents/linsux/backEnd/linsux/linsux/linsux-manager/target/classes started by linsz in /Users/linsz/Documents/linsux/backEnd/linsux/linsux)
+2023-11-16 16:40:19 The following 1 profile is active: "dev"
+2023-11-16 16:40:19 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-11-16 16:40:19 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-11-16 16:40:19 Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2023-11-16 16:40:20 Tomcat initialized with port(s): 8889 (http)
+2023-11-16 16:40:20 Initializing ProtocolHandler ["http-nio-8889"]
+2023-11-16 16:40:20 Starting service [Tomcat]
+2023-11-16 16:40:20 Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-11-16 16:40:20 Initializing Spring embedded WebApplicationContext
+2023-11-16 16:40:20 Root WebApplicationContext: initialization completed in 763 ms
+2023-11-16 16:40:20 Starting ProtocolHandler ["http-nio-8889"]
+2023-11-16 16:40:21 Tomcat started on port(s): 8889 (http) with context path ''
+2023-11-16 16:40:21 Started ManagerApplication in 1.848 seconds (process running for 2.119)
+2023-11-16 16:40:26 Starting ManagerApplication using Java 17.0.9 with PID 21294 (/Users/linsz/Documents/linsux/backEnd/linsux/linsux/linsux-manager/target/classes started by linsz in /Users/linsz/Documents/linsux/backEnd/linsux/linsux)
+2023-11-16 16:40:26 The following 1 profile is active: "dev"
+2023-11-16 16:40:27 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-11-16 16:40:27 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-11-16 16:40:27 Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2023-11-16 16:40:27 Tomcat initialized with port(s): 8889 (http)
+2023-11-16 16:40:27 Initializing ProtocolHandler ["http-nio-8889"]
+2023-11-16 16:40:27 Starting service [Tomcat]
+2023-11-16 16:40:27 Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-11-16 16:40:27 Initializing Spring embedded WebApplicationContext
+2023-11-16 16:40:27 Root WebApplicationContext: initialization completed in 644 ms
+2023-11-16 16:40:28 Starting ProtocolHandler ["http-nio-8889"]
+2023-11-16 16:40:28 Tomcat started on port(s): 8889 (http) with context path ''
+2023-11-16 16:40:28 Started ManagerApplication in 1.677 seconds (process running for 1.899)
+2023-11-16 16:40:37 Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-16 16:40:37 Initializing Servlet 'dispatcherServlet'
+2023-11-16 16:40:37 Completed initialization in 2 ms
+2023-11-16 16:40:37 Init duration for springdoc-openapi is: 158 ms
+2023-11-16 16:41:02 Unable to make field private final java.lang.Class java.lang.invoke.SerializedLambda.capturingClass accessible: module java.base does not "opens java.lang.invoke" to unnamed module @1573f9fc
+2023-11-16 16:41:03 HikariPool-1 - Starting...
+2023-11-16 16:41:03 HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@dd92c59
+2023-11-16 16:41:03 HikariPool-1 - Start completed.
+2023-11-16 16:48:44 HikariPool-1 - Shutdown initiated...
+2023-11-16 16:48:44 HikariPool-1 - Shutdown completed.
+2023-11-16 16:48:47 Starting ManagerApplication using Java 17.0.9 with PID 23364 (/Users/linsz/Documents/linsux/backEnd/linsux/linsux/linsux-manager/target/classes started by linsz in /Users/linsz/Documents/linsux/backEnd/linsux/linsux)
+2023-11-16 16:48:47 The following 1 profile is active: "dev"
+2023-11-16 16:48:47 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-11-16 16:48:47 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-11-16 16:48:47 Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2023-11-16 16:48:47 Tomcat initialized with port(s): 8889 (http)
+2023-11-16 16:48:47 Initializing ProtocolHandler ["http-nio-8889"]
+2023-11-16 16:48:47 Starting service [Tomcat]
+2023-11-16 16:48:47 Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-11-16 16:48:47 Initializing Spring embedded WebApplicationContext
+2023-11-16 16:48:47 Root WebApplicationContext: initialization completed in 674 ms
+2023-11-16 16:48:48 Starting ProtocolHandler ["http-nio-8889"]
+2023-11-16 16:48:48 Tomcat started on port(s): 8889 (http) with context path ''
+2023-11-16 16:48:48 Started ManagerApplication in 1.695 seconds (process running for 1.94)
+2023-11-16 16:48:57 Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-16 16:48:57 Initializing Servlet 'dispatcherServlet'
+2023-11-16 16:48:57 Completed initialization in 2 ms
+2023-11-16 16:48:58 Init duration for springdoc-openapi is: 151 ms
+2023-11-16 16:49:03 Unable to make field private final java.lang.Class java.lang.invoke.SerializedLambda.capturingClass accessible: module java.base does not "opens java.lang.invoke" to unnamed module @1573f9fc
+2023-11-16 16:49:03 HikariPool-1 - Starting...
+2023-11-16 16:49:03 HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@63df62a1
+2023-11-16 16:49:03 HikariPool-1 - Start completed.
+2023-11-16 16:51:42 HikariPool-1 - Shutdown initiated...
+2023-11-16 16:51:42 HikariPool-1 - Shutdown completed.
+2023-11-16 16:51:44 Starting ManagerApplication using Java 17.0.9 with PID 24104 (/Users/linsz/Documents/linsux/backEnd/linsux/linsux/linsux-manager/target/classes started by linsz in /Users/linsz/Documents/linsux/backEnd/linsux/linsux)
+2023-11-16 16:51:44 The following 1 profile is active: "dev"
+2023-11-16 16:51:44 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-11-16 16:51:44 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-11-16 16:51:44 Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2023-11-16 16:51:45 Tomcat initialized with port(s): 8889 (http)
+2023-11-16 16:51:45 Initializing ProtocolHandler ["http-nio-8889"]
+2023-11-16 16:51:45 Starting service [Tomcat]
+2023-11-16 16:51:45 Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-11-16 16:51:45 Initializing Spring embedded WebApplicationContext
+2023-11-16 16:51:45 Root WebApplicationContext: initialization completed in 679 ms
+2023-11-16 16:51:45 Starting ProtocolHandler ["http-nio-8889"]
+2023-11-16 16:51:45 Tomcat started on port(s): 8889 (http) with context path ''
+2023-11-16 16:51:45 Started ManagerApplication in 1.716 seconds (process running for 1.934)
+2023-11-16 16:51:50 Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-16 16:51:50 Initializing Servlet 'dispatcherServlet'
+2023-11-16 16:51:50 Completed initialization in 1 ms
+2023-11-16 16:51:51 Init duration for springdoc-openapi is: 148 ms
+2023-11-16 16:51:55 Unable to make field private final java.lang.Class java.lang.invoke.SerializedLambda.capturingClass accessible: module java.base does not "opens java.lang.invoke" to unnamed module @1573f9fc
+2023-11-16 16:51:55 HikariPool-1 - Starting...
+2023-11-16 16:51:55 HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3434734d
+2023-11-16 16:51:55 HikariPool-1 - Start completed.
+2023-11-16 17:00:11 HikariPool-1 - Shutdown initiated...
+2023-11-16 17:00:11 HikariPool-1 - Shutdown completed.
+2023-11-16 17:00:13 Starting ManagerApplication using Java 17.0.9 with PID 26186 (/Users/linsz/Documents/linsux/backEnd/linsux/linsux/linsux-manager/target/classes started by linsz in /Users/linsz/Documents/linsux/backEnd/linsux/linsux)
+2023-11-16 17:00:13 The following 1 profile is active: "dev"
+2023-11-16 17:00:13 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-11-16 17:00:13 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-11-16 17:00:13 Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2023-11-16 17:00:13 Tomcat initialized with port(s): 8889 (http)
+2023-11-16 17:00:13 Initializing ProtocolHandler ["http-nio-8889"]
+2023-11-16 17:00:13 Starting service [Tomcat]
+2023-11-16 17:00:13 Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-11-16 17:00:13 Initializing Spring embedded WebApplicationContext
+2023-11-16 17:00:13 Root WebApplicationContext: initialization completed in 678 ms
+2023-11-16 17:00:14 Starting ProtocolHandler ["http-nio-8889"]
+2023-11-16 17:00:14 Tomcat started on port(s): 8889 (http) with context path ''
+2023-11-16 17:00:14 Started ManagerApplication in 1.709 seconds (process running for 1.933)
+2023-11-16 17:00:27 Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-16 17:00:27 Initializing Servlet 'dispatcherServlet'
+2023-11-16 17:00:27 Completed initialization in 1 ms
+2023-11-16 17:00:27 Init duration for springdoc-openapi is: 149 ms
+2023-11-16 17:00:41 Unable to make field private final java.lang.Class java.lang.invoke.SerializedLambda.capturingClass accessible: module java.base does not "opens java.lang.invoke" to unnamed module @1573f9fc
+2023-11-16 17:00:41 HikariPool-1 - Starting...
+2023-11-16 17:00:42 HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@533f5be2
+2023-11-16 17:00:42 HikariPool-1 - Start completed.
+2023-11-16 17:13:15 HikariPool-1 - Shutdown initiated...
+2023-11-16 17:13:15 HikariPool-1 - Shutdown completed.
+2023-11-16 17:13:17 Starting ManagerApplication using Java 17.0.9 with PID 29444 (/Users/linsz/Documents/linsux/backEnd/linsux/linsux/linsux-manager/target/classes started by linsz in /Users/linsz/Documents/linsux/backEnd/linsux/linsux)
+2023-11-16 17:13:17 The following 1 profile is active: "dev"
+2023-11-16 17:13:17 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-11-16 17:13:17 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-11-16 17:13:17 Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2023-11-16 17:13:17 Tomcat initialized with port(s): 8889 (http)
+2023-11-16 17:13:17 Initializing ProtocolHandler ["http-nio-8889"]
+2023-11-16 17:13:17 Starting service [Tomcat]
+2023-11-16 17:13:17 Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-11-16 17:13:17 Initializing Spring embedded WebApplicationContext
+2023-11-16 17:13:17 Root WebApplicationContext: initialization completed in 710 ms
+2023-11-16 17:13:18 Starting ProtocolHandler ["http-nio-8889"]
+2023-11-16 17:13:18 Tomcat started on port(s): 8889 (http) with context path ''
+2023-11-16 17:13:18 Started ManagerApplication in 1.79 seconds (process running for 2.027)
+2023-11-16 17:13:29 Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-16 17:13:29 Initializing Servlet 'dispatcherServlet'
+2023-11-16 17:13:29 Completed initialization in 1 ms
+2023-11-16 17:13:29 Init duration for springdoc-openapi is: 150 ms
+2023-11-16 17:14:01 Unable to make field private final java.lang.Class java.lang.invoke.SerializedLambda.capturingClass accessible: module java.base does not "opens java.lang.invoke" to unnamed module @1573f9fc
+2023-11-16 17:14:01 HikariPool-1 - Starting...
+2023-11-16 17:14:01 HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2bc6d774
+2023-11-16 17:14:01 HikariPool-1 - Start completed.
+2023-11-16 17:17:56 HikariPool-1 - Shutdown initiated...
+2023-11-16 17:17:56 HikariPool-1 - Shutdown completed.
+2023-11-16 17:17:58 Starting ManagerApplication using Java 17.0.9 with PID 30619 (/Users/linsz/Documents/linsux/backEnd/linsux/linsux/linsux-manager/target/classes started by linsz in /Users/linsz/Documents/linsux/backEnd/linsux/linsux)
+2023-11-16 17:17:58 The following 1 profile is active: "dev"
+2023-11-16 17:17:58 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-11-16 17:17:58 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-11-16 17:17:58 Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2023-11-16 17:17:58 Tomcat initialized with port(s): 8889 (http)
+2023-11-16 17:17:58 Initializing ProtocolHandler ["http-nio-8889"]
+2023-11-16 17:17:58 Starting service [Tomcat]
+2023-11-16 17:17:58 Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-11-16 17:17:58 Initializing Spring embedded WebApplicationContext
+2023-11-16 17:17:58 Root WebApplicationContext: initialization completed in 701 ms
+2023-11-16 17:17:59 Starting ProtocolHandler ["http-nio-8889"]
+2023-11-16 17:17:59 Tomcat started on port(s): 8889 (http) with context path ''
+2023-11-16 17:17:59 Started ManagerApplication in 1.714 seconds (process running for 1.934)
+2023-11-16 17:18:07 Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-16 17:18:07 Initializing Servlet 'dispatcherServlet'
+2023-11-16 17:18:07 Completed initialization in 1 ms
+2023-11-16 17:18:08 Init duration for springdoc-openapi is: 152 ms
+2023-11-16 17:25:51 Starting ManagerApplication using Java 17.0.9 with PID 32841 (/Users/linsz/Documents/linsux/backEnd/linsux/linsux/linsux-manager/target/classes started by linsz in /Users/linsz/Documents/linsux/backEnd/linsux/linsux)
+2023-11-16 17:25:51 The following 1 profile is active: "dev"
+2023-11-16 17:25:52 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-11-16 17:25:52 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-11-16 17:25:52 Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2023-11-16 17:25:52 Tomcat initialized with port(s): 8889 (http)
+2023-11-16 17:25:52 Initializing ProtocolHandler ["http-nio-8889"]
+2023-11-16 17:25:52 Starting service [Tomcat]
+2023-11-16 17:25:52 Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-11-16 17:25:52 Initializing Spring embedded WebApplicationContext
+2023-11-16 17:25:52 Root WebApplicationContext: initialization completed in 699 ms
+2023-11-16 17:25:53 Starting ProtocolHandler ["http-nio-8889"]
+2023-11-16 17:25:53 Tomcat started on port(s): 8889 (http) with context path ''
+2023-11-16 17:25:53 Started ManagerApplication in 1.744 seconds (process running for 1.961)
+2023-11-16 17:26:06 Starting ManagerApplication using Java 17.0.9 with PID 32906 (/Users/linsz/Documents/linsux/backEnd/linsux/linsux/linsux-manager/target/classes started by linsz in /Users/linsz/Documents/linsux/backEnd/linsux/linsux)
+2023-11-16 17:26:06 The following 1 profile is active: "dev"
+2023-11-16 17:26:06 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-11-16 17:26:06 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-11-16 17:26:06 Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2023-11-16 17:26:07 Tomcat initialized with port(s): 8889 (http)
+2023-11-16 17:26:07 Initializing ProtocolHandler ["http-nio-8889"]
+2023-11-16 17:26:07 Starting service [Tomcat]
+2023-11-16 17:26:07 Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-11-16 17:26:07 Initializing Spring embedded WebApplicationContext
+2023-11-16 17:26:07 Root WebApplicationContext: initialization completed in 671 ms
+2023-11-16 17:26:07 Starting ProtocolHandler ["http-nio-8889"]
+2023-11-16 17:26:07 Tomcat started on port(s): 8889 (http) with context path ''
+2023-11-16 17:26:07 Started ManagerApplication in 1.725 seconds (process running for 1.944)
+2023-11-16 17:26:14 Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-16 17:26:14 Initializing Servlet 'dispatcherServlet'
+2023-11-16 17:26:14 Completed initialization in 1 ms
+2023-11-16 17:26:17 Unable to make field private final java.lang.Class java.lang.invoke.SerializedLambda.capturingClass accessible: module java.base does not "opens java.lang.invoke" to unnamed module @1573f9fc
+2023-11-16 17:26:17 HikariPool-1 - Starting...
+2023-11-16 17:26:17 HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6e4bc5bd
+2023-11-16 17:26:17 HikariPool-1 - Start completed.
+2023-11-16 17:26:26 Init duration for springdoc-openapi is: 142 ms
+2023-11-16 17:43:31 HikariPool-1 - Shutdown initiated...
+2023-11-16 17:43:31 HikariPool-1 - Shutdown completed.
