@@ -4,9 +4,11 @@ package com.lin.linsux.model.entity.system;
 import com.lin.linsux.model.entity.base.BaseEntity;
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Data;
+import lombok.experimental.Accessors;
 
 @Data
 @Schema(description = "系统用户实体类")
+@Accessors(chain = true)
 public class SysUser extends BaseEntity {
 
 	@Schema(description = "用户名")

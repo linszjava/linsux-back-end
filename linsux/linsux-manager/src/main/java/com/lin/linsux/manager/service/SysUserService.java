@@ -38,4 +38,10 @@ public interface SysUserService extends IService<SysUser> {
      * 根据用户名分页查询用户信息
      */
     PageInfo<SysUser> selectPageByUserName(SysUserDto sysUserDto, Integer pageNum, Integer pageSize);
+
+    /**
+     * 添加用户
+     * @param sysUser
+     */
+    void saveSysUser(SysUser sysUser);
 }

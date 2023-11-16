@@ -110,5 +110,22 @@ public class SysUserServiceImpl extends ServiceImpl<SysUserMapper, SysUser>
         return new PageInfo<>(sysUserList);
     }
 
+    /**
+     * 添加用户
+     * @param sysUser
+     */
+    @Override
+    public void saveSysUser(SysUser sysUser) {
+        boolean isExisted = (this.count(new LambdaQueryWrapper<SysUser>()
+                .eq(SysUser::getUserName, sysUser.getUserName()))) > 0;
+        if (isExisted){
+            throw new CommonException(ResultCodeEnum.USER_NAME_IS_EXISTS);
+        }
+        //用户名尚未存在，加密密码存入数据库
+        sysUser.setPassword(DigestUtils.md5DigestAsHex(sysUser.getPassword().getBytes()))
+                .setStatus(Integer.valueOf(CommonEnum.ENABLED.getValue()));
+        this.save(sysUser);
+    }
+
 
 }

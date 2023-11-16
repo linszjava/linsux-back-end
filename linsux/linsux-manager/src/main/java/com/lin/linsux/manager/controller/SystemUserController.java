@@ -38,6 +38,16 @@ public class SystemUserController {
         return Result.build(sysUserPageInfo, ResultCodeEnum.SUCCESS);
     }
 
+    /**
+     * 添加用户
+     */
+    @PostMapping("/saveSysUser")
+    @Operation(summary = "添加用户")
+    public Result<Object> saveSysUser(@RequestBody SysUser sysUser) {
+        sysUserService.saveSysUser(sysUser);
+        return Result.build(ResultCodeEnum.SUCCESS);
+    }
+
 
 
 }

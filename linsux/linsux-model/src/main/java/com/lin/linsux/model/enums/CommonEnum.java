@@ -17,7 +17,11 @@ public enum CommonEnum {
      */
     NOT_DELETED("0"),
 
-    DELETED("1");
+    DELETED("1"),
+
+    ENABLED("1"),
+
+    DISABLED("0");
 
     private final String value;
 
